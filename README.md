@@ -1,7 +1,5 @@
 # Communication-Aware Fault-Tolerant Attitude Coordination of Four Satellites
 
-
-
 One integrated MATLAB/Simulink simulation: spacecraft motion changes optical pointing, optical power gates delayed state packets, received messages determine follower targets and local diagnosis can optionally adjust messaging/prediction during recovery.
 
 The main experiment tracks a moving attitude command. **Only SC1 receives that command.** Followers maintain specified attitude offsets through a declared leader–follower chain (SC1 → SC2 → SC3 → SC4). They retain local stabilization during an outage, but cannot independently track the unknown moving command.
