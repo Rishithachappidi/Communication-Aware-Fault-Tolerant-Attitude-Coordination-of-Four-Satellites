@@ -60,6 +60,7 @@ Nine scenarios include the complete pointing/actuator/moderate-attenuation facto
 
 The earlier static-reference condition remains reproducible with `start_static_project`, `run_experiments`, and `audit_recovery`. Its [90-trial results](results/RESULTS.md) and [30-trial recovery audit](results/recovery_audit/REPORT.md) are background experiments in the same project. Do not substitute their percentages for moving-reference results.
 
+
 ## Evidence boundaries
 
 - The first project's exact MATLAB source was unavailable locally. This fresh implementation uses quaternions and does not reproduce the paper's exact self-triggered or dynamic event-triggered method. Its event scheduler is separately documented.
