@@ -1,0 +1,23 @@
+# Closest prior art and precise contribution status
+
+Rechecked 23 October 2026 using primary sources. Descriptions are restricted to inspected source scope. An abstract does not establish that a capability is absent from the full paper.
+
+|Capability|Established component|Present specialization|Status|
+|---|---|---|---|
+|Reference-relative optical power|Gaussian-beam algebra and reference-relative comparisons are familiar tools.|The exact ratio cancels the constant squared offset; a centered pair of Euclidean balls has an attainable loss maximum used in this finite-library deployment.|Candidate application-specific mathematical specialization; absolute priority unconfirmed.|
+|Measurement uncertainty|Gaussian tails, union bounds and simultaneous events are established.|A full-mission event links the noisy current power to a selected-start interval and acquisition budget.|Known probability method applied to a consequential optical mode decision; not a new probability theorem.|
+|Adaptive initiation|Uniform event coverage implies coverage at any selected index.|The acquisition event is contained in the mission-envelope failure event.|Verified logic; do not claim invention of optional-stopping-safe inference.|
+|Actuator uncertainty|Finite-model impulse convolution and reachability are established.|Delivered-increment uncertainty and RK4 stage constraints connect the retained PID model to the optical inequality.|Finite-set integration; no new general reachability algorithm or continuous-interval guarantee.|
+|Service preservation|Safe/constrained AFD and safety-filtered ES predate this study.|Conditional finite-horizon sampled outage count for the declared optical model.|Narrower than general safe AFD.|
+|Diagnostic effectiveness|Information filtering and approximate GLS are familiar.|Explicit cost of maintaining the conditional statement.|No demonstrated practical outcome advantage over the fixed-margin heuristic in 2,800 matched pairs.|
+
+## Closest methods and actual access
+
+- **Guo et al., Automatica 2023**, [publisher](https://www.sciencedirect.com/science/article/pii/S0005109823003552), DOI10.1016/j.automatica.2023.111194: inspected publisher abstract/introduction/search-indexed text; covers stochastic linear AFD and allocation of chance-constraint risk. It establishes that risk-constrained AFD is prior art. The optical system mapping and a full implementation were not reproduced. We do not infer the absence of any exact optical specialization from an abstract.
+- **Massa and Paulson, Control Engineering Practice 2024**, DOI10.1016/j.conengprac.2024.106118: publisher full text remained blocked, but the [public author repository](https://github.com/PaulsonLab/Guaranteed_AFD_ADL) was located and its README inspected. **Correction to the earlier V4 access assessment:** author code exists publicly. The implementation documents CORA, MATLAB/Python engine integration and additional YALMIP/Gurobi requirements for relevant linear solves. The active MATLAB path lacks the checked reach/interval/sdpvar/gurobi functions. No complete optical mapping or reproduction was executed. Missing code is no longer given as the reason.
+- **Williams, Krstic and Scheinker, TAC 2025**, DOI10.1109/TAC.2024.3469785: [publisher](https://ieeexplore.ieee.org/document/10697295/) and [full author paper](https://flyingv.ucsd.edu/papers/PDF/468.pdf). Its measured unknown-CBF, practical semiglobal safety statement differs from the present finite-mission sampled optical statement. Generic ES in this project is not a faithful reproduction of that full safety-filtered method and inherits none of its guarantees.
+- **Yan et al., Optical Communications 2026**, DOI10.1016/j.optcom.2026.133342: [publisher](https://www.sciencedirect.com/science/article/pii/S0030401826004815), accessible abstract/search text; full text remained blocked. Link-margin-aware scanning/acquisition is close prior art. Exact theorem overlap cannot be excluded; absolute priority and complete-system superiority remain unestablished.
+
+## Journal positioning after the new comparisons
+
+The strongest supported description is **a conditional optical certificate specialization with reproducible verification and a negative practical-complexity result**. The additional simpler baseline weakens a broad practical-advantage argument. A stronger Transactions claim would require a further independently substantiated result or real deployment value, plus external expert review and practical validation. This revision does not relabel known norm/probability/reachability tools as a wholly new general algorithm.

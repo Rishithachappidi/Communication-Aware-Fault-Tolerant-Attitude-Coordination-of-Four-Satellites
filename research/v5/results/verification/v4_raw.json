@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "traces": 29250,
+  "mat_chunks": 77,
+  "printed_primary_rows_checked": 36,
+  "UAD_all_primary_and_sensitivity": {
+    "selected": 2121,
+    "valid": 1564,
+    "invalid": 557,
+    "violations_valid": 0,
+    "violations_invalid": 100
+  },
+  "scope": "Separate Python implementation. V4 offset histories absent: reconstructed from documented frozen injection formula, not independently measured. Rate disturbances absent: global noise_max relies on recorded scalar; V5 logs every disturbance. No physical or external human replication."
+}

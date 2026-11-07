@@ -1,0 +1,8 @@
+{
+  "source": "research/v6/results/confirmation/trace_direction1_middle_J1_T1.mat",
+  "seed": 7001,
+  "method": "UAD",
+  "geometry_sample_time_s": 3.48,
+  "initial_radius_rad": 1.1400372043093618e-05,
+  "motion_radius_rad": 5.716216717783613e-07
+}

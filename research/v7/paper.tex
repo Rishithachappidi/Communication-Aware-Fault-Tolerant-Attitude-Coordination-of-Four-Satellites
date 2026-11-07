@@ -1,0 +1,31 @@
+\documentclass[10pt,journal]{IEEEtran}
+\usepackage[letterpaper,top=1in,bottom=1in,left=.7in,right=.7in,columnsep=.2in]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,fontspec,placeins,balance}
+\usepackage[hidelinks]{hyperref}
+\setmainfont{Times New Roman}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+\newcommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\um}{\,\mu\mathrm{rad}}
+\graphicspath{{results/}{../v6/results/}}
+\input{results/matched_rows.tex}
+\raggedbottom
+\begin{document}
+\title{Conditional Probe Authorization for Optical Fault Diagnosis Under Finite Actuator-Model Uncertainty}
+\author{}
+\maketitle
+\begin{abstract}
+An optical diagnostic probe can interrupt a functioning link while distinguishing pointing loss from scalar attenuation. This paper develops a conditional probe-authorization certificate for a two-axis terminal with a declared finite actuator-model set. Under fixed-offset and divergence assumptions, a bounded log-gain decline and a simultaneous sensor event, an angular-displacement enclosure yields a lower bound on sampled received power and a finite-window outage-count test. A supervisory interface refuses unsupported contracts and separates probe service from estimation, diagnosis and recovery. A development-guided admission-frontier study compares the certificate with a fixed 2-microradian guard in 7,200 trials. An additional, separately frozen 7,200-run extension evaluates parameter filtering and extremum-seeking tracking under matched time and plant conditions. In the low-noise midpoint, the certificate admits 600 probes and accepts 594 fits, while the guard admits none; 26 accepted fits miss their approximate uncertainty radius. Parameter filtering accepts 600 fits with greater angular excitation. In a reverse region the guard accepts 41 fits while the certificate refuses all. Every method has zero observed sampled outage in these restricted settings. Independent calculation replays 10,080,000 actuator steps across the two studies. The evidence supports conditional diagnostic access, not universal superiority or physical safety. Hardware calibration, continuous actuator uncertainty and robust post-probe recovery remain open.
+\end{abstract}
+\begin{IEEEkeywords}Optical fault diagnosis, active probing, supervisory control, finite-model uncertainty, sampled service.\end{IEEEkeywords}
+\input{sections/introduction.tex}
+\input{sections/related.tex}
+\input{sections/model.tex}
+\input{sections/certificate.tex}
+\input{sections/algorithm.tex}
+\input{sections/protocol.tex}
+\input{sections/results.tex}
+\input{sections/discussion.tex}
+\input{sections/limits.tex}
+\input{references.tex}
+\end{document}

@@ -1,3 +1,40 @@
+# Satellite Optical Fault Recovery — Research V4
+
+A reproducible MATLAB simulation study of optical pointing diagnosis under time-varying gain, uncertain measurements and finite actuator-model uncertainty.
+
+**Research status: partially complete against the IEEE Transactions goal.** The implementation, mathematical audit, simulation study and manuscript are delivered. Absolute novelty, physical validation, faithful close published-system comparisons, source-rights confirmation and independent external review remain unresolved.
+
+- **[Requested checkpoints: all eleven phases](research/CHECKPOINTS.md)**
+- **[Read the ten-page manuscript](research/v4/paper.pdf)** · [Editable source](research/v4/paper.tex)
+- **[Download complete project and data](https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/tag/research-v4-2026-10-23)**
+- [Research guide](research/v4/README.md) · [Reproduction instructions](research/reproducibility/REPRODUCIBILITY.md)
+- [Claim/evidence audit](research/audit/PROJECT_FORENSIC_AUDIT.md) · [Critical review](research/audit/FINAL_REVIEW.md)
+
+## Executed evidence
+
+9,000 original benchmark trials reproduced; 29,250 new final simulation trials; all new scientific traces audited. Ten mathematical/model test categories, four analysis tests and nine legacy regression tests passed. The 141 protected original files were unchanged. Ninety-four evaluator premise labels were transparently corrected and replayed without changing performance outcomes.
+
+The candidate contribution is a reference-relative conditional optical service certificate and an uncertainty-aware acquisition gate. It is not a globally established novelty or flight-safety claim. Mean affine-drift outage is 4.9730 s for the proposed UAD versus 4.2462 s for original DAP. At fivefold noise near the threshold, UAD has 0/50 false acquisitions versus DAP's 2/50. Stronger comparators outperform UAD in other conditions; all adverse cases are retained.
+
+## Start
+
+From MATLAB at the project root:
+
+```matlab
+start_research_v4
+test_v4
+% A new output folder; never overwrites supplied final data:
+run_v4('replication_01')
+```
+
+For the supplied final data, extract the full project snapshot and V4 raw-data archive from the release into the same folder. The smaller code/report archive is an alternative source-focused download. The release includes SHA-256 manifests. MATLAB is required for V4; Simulink is required for legacy network regression. Python analysis uses the standard library. See the reproduction guide for plotting and paper compilation.
+
+The inherited terminal/network model is reused and attributed in the provenance report. Human author approval, rights confirmation and independent scientific review are still required before paper submission. AI assistance is disclosed in the manuscript. No IEEE submission or hardware validation has been performed.
+
+---
+
+## Previous repository overview
+
 # Communication-Aware Fault-Tolerant Attitude Coordination of Four Satellites
 
 One integrated MATLAB/Simulink simulation: spacecraft motion changes optical pointing, optical power gates delayed state packets, received messages determine follower targets and local diagnosis can optionally adjust messaging/prediction during recovery.

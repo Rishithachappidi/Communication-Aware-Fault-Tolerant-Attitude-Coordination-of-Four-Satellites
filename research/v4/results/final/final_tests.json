@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "count": 10,
+  "checks": [
+    "sharp angular loss and containment",
+    "simultaneous-envelope acquisition gate",
+    "finite-model RK4 predictor exactness",
+    "noiseless affine identification and rank rejection",
+    "covariance transformation and units",
+    "unobservable model-mismatch counterexample",
+    "candidate selection and infeasible abstention",
+    "closed-loop requirements and determinism",
+    "independent finite-aperture quadrature",
+    "mid-probe fault premise regression"
+  ],
+  "aperture_max_relative_error": 0.00017576008311310286,
+  "matlab": "26.1.0.3276743 (R2026a) Update 3"
+}

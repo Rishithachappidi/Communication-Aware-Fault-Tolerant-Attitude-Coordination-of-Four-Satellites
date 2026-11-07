@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "trace_count": 12000,
+  "matched_trials": 7200,
+  "actuator_trials": 3000,
+  "native_trials": 1800,
+  "preserved_V4_sha256_files": 225,
+  "UAD_guarded_identical_trajectory_pairs": 2800,
+  "scope": "Separate Python raw-trace audit, including recorded offset and every noise channel in V5. Fixed-margin bound/model flags do not confer UAD theorem status."
+}

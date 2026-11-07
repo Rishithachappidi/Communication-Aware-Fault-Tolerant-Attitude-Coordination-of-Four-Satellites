@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "reexecuted_cases": 94,
+  "result": "All non-timing metrics match the explicitly corrected records; only the premise logging changed."
+}

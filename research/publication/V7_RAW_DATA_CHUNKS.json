@@ -1,0 +1,716 @@
+{
+  "format": "32MiB lossless ordered parts of unchanged delivery ZIPs",
+  "archives": [
+    {
+      "name": "Satellite_Optical_Research_V5_Raw_Data.zip",
+      "bytes": 1231968907,
+      "sha256": "7e0b9e2eec9ab70217d6edd272911f74b18e8733cf2332784ade28189845c2e2",
+      "parts": [
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part001",
+          "bytes": 33554432,
+          "sha256": "53c5e69c4e6bb0b72d34bfa494b77f8db78f742360dc46309608392b29dafd4b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part001"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part002",
+          "bytes": 33554432,
+          "sha256": "299e63b07674766b5fa09e8c0776f8a2ee5fb8dbe1d51a01a925daa5a8c8770d",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part002"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part003",
+          "bytes": 33554432,
+          "sha256": "63590a0fad86897f7aa9f63588398bedcde4e7dda0b5a9a5058a63392ad64661",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part003"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part004",
+          "bytes": 33554432,
+          "sha256": "f706d68c857d03c13c67be20e214c49e7d9581130b4077889474b4d3b6acb09f",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part004"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part005",
+          "bytes": 33554432,
+          "sha256": "579b89b2271406dca93b7f02251e2bb621f3e886e669c2e38d21075a1d2ca1b2",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part005"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part006",
+          "bytes": 33554432,
+          "sha256": "bb0ad7c4e02503c4a7665547dcee49929d93130cde6584e323b76bd68a8972c5",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part006"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part007",
+          "bytes": 33554432,
+          "sha256": "4d9d15d14c496319f2a7397bfdc62bce78f6f7d0eecaf1390e4512e027fd1d2a",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part007"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part008",
+          "bytes": 33554432,
+          "sha256": "47b64a3b0ddbe4a0f32f6f038dbfb22ad89a51efbfc64be0e2a70068a73347c3",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part008"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part009",
+          "bytes": 33554432,
+          "sha256": "77d9168e291f2b1c9b3fd2d90c1322a7ec41570c55d97e1f491aaa2146218b9c",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part009"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part010",
+          "bytes": 33554432,
+          "sha256": "4ffcaf6f77a156d6f4183c1227358ec95604465ec4c2dae33b20e0cc461b3b62",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part010"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part011",
+          "bytes": 33554432,
+          "sha256": "e8a01235d5757f5ae24472547c83ea3def3e3162deadaec7b0548b1a15d4d399",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part011"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part012",
+          "bytes": 33554432,
+          "sha256": "91a4c831ca09669e2d19beea4eb09569c3b938dc67cd5a620b9e2d051f0f5e35",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part012"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part013",
+          "bytes": 33554432,
+          "sha256": "230018dc12e5592042a89be4bd667c3f99e4ee9863cd7d103d7f028083e6e3d1",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part013"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part014",
+          "bytes": 33554432,
+          "sha256": "116d2850b575022a494c01523c09cea6adf5730394256c9c55c625f8ae820c84",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part014"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part015",
+          "bytes": 33554432,
+          "sha256": "7539c60fba7690ba067a65dd2968e78f39a6927dcc675583c5a1f2e4f1384d37",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part015"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part016",
+          "bytes": 33554432,
+          "sha256": "08cbe71a34527f2af3c5851be9e777704001d99fddc60e613f3d874debe412ab",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part016"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part017",
+          "bytes": 33554432,
+          "sha256": "308567b2f42c88e5b66ecfdbc9e6cbae53a330d4dc35a6611115564084161bfb",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part017"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part018",
+          "bytes": 33554432,
+          "sha256": "1c3aadbdc98ecbe1e664ce0ff58bfe1bd76d9fc6b1eb7fcdc5b7adf097237af4",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part018"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part019",
+          "bytes": 33554432,
+          "sha256": "992269c572c12033b4ddaf1eea42bc33918a4d9263700bbe54f6890a13dd6343",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part019"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part020",
+          "bytes": 33554432,
+          "sha256": "278af2fa5a9605e468f8deb22747e27032b9125ea935ddd6472902add93b6697",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part020"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part021",
+          "bytes": 33554432,
+          "sha256": "a114da8b33b6dff60e0dfd174fd5dd08a19d7248e30a61c6b8bd75e233fff00b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part021"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part022",
+          "bytes": 33554432,
+          "sha256": "4eca5446a4b8a4bcc4fde21f1c8ea9e7ad0c16bfebe60952e2617a47391ecfe9",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part022"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part023",
+          "bytes": 33554432,
+          "sha256": "e8dc273ffc01cafcb9031bd56673a497be79dbf91c3cfe22308dbc1f032158a1",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part023"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part024",
+          "bytes": 33554432,
+          "sha256": "68a6c566f2649fc6b87aa6a596ff776eea4b2b2e1247d8fb0313cb4b4220f04b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part024"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part025",
+          "bytes": 33554432,
+          "sha256": "aab9b7030fa0795f844e4a077b5436f7b2b8acd19abf6b5382ed4cdf4b006c70",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part025"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part026",
+          "bytes": 33554432,
+          "sha256": "2295d6bbfd1c55788867169d704dcffff9205a7ab9038ef9b87b52eca821bb8b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part026"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part027",
+          "bytes": 33554432,
+          "sha256": "e0c46f225c078abba4b122aa709de9928c4429174fd0d8bbde1ed7701474de9c",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part027"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part028",
+          "bytes": 33554432,
+          "sha256": "e01c5844d8cdd0e9d16d946a8632976ea2e782059a7b8598f2427dd2834937ed",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part028"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part029",
+          "bytes": 33554432,
+          "sha256": "2c4fd035bae875a751e34fd9c24697885428fd67e199119eda5b417e1c1ee4a2",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part029"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part030",
+          "bytes": 33554432,
+          "sha256": "e5b3d293e2e83d6fc32272203ef0a48df6d7ffb0ba0f337a451519dddbb0de00",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part030"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part031",
+          "bytes": 33554432,
+          "sha256": "c02a9a25963c36b7eb2d3a8479c819337d8b6a9209e6eb1659bc73d882772e7f",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part031"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part032",
+          "bytes": 33554432,
+          "sha256": "eb16bce1ec4df1dff613d2ca138246a89305f018ef927e48af484f02dc2c249e",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part032"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part033",
+          "bytes": 33554432,
+          "sha256": "4561f0653e656dc2457d37533afd4fefbefabab52d2e328f4957b6aa24e8d553",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part033"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part034",
+          "bytes": 33554432,
+          "sha256": "0a1a3b996e1f302b902f8e1b4eb975b54c4635d48aaece5ef860509918644bb3",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part034"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part035",
+          "bytes": 33554432,
+          "sha256": "7d7b5d1cd803bbef0cf16c97141d6d6dce5536f0a570d5eeffdd8e6421526d98",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part035"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part036",
+          "bytes": 33554432,
+          "sha256": "ee46f5b1b024b8d6ad8125a97d3b7e248770c1c3496e7bb92d1e2a4a64cb4867",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part036"
+        },
+        {
+          "name": "Satellite_Optical_Research_V5_Raw_Data.zip.part037",
+          "bytes": 24009355,
+          "sha256": "0594ff53f969ba909e1b85878dbe37e4f4fb755e97694b175231df3d446c278c",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V5_Raw_Data.zip.part037"
+        }
+      ]
+    },
+    {
+      "name": "Satellite_Optical_Research_V6_Raw_Data.zip",
+      "bytes": 1246771524,
+      "sha256": "40f286e314cdab81ebaf2abd7bb87ecbc2388df27d229d49502aee1de97b77a6",
+      "parts": [
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part001",
+          "bytes": 33554432,
+          "sha256": "f8142a9790503007bc5766a609d6bb7203094335e45752a45aeeb926114a944e",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part001"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part002",
+          "bytes": 33554432,
+          "sha256": "37bb46e772962a99fcf721f7e94b59257711c6511fd8dcb2471e7df7a99c7d9b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part002"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part003",
+          "bytes": 33554432,
+          "sha256": "8e767584ae46c5605c91feddcd23dde0b193eb1dc29494526278fd09e447295f",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part003"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part004",
+          "bytes": 33554432,
+          "sha256": "9813d5fa9ccc4dcb171417221bf669d93523268871283fd88578aaa5f8ccf419",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part004"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part005",
+          "bytes": 33554432,
+          "sha256": "a16f29f3f138b0a461281a0767a02dd0e0b88353d75f42be57df8c98e01691fc",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part005"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part006",
+          "bytes": 33554432,
+          "sha256": "1d45951e75834c61965e6de5cbc9589218bb1b115dea509eb5d9646847f60894",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part006"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part007",
+          "bytes": 33554432,
+          "sha256": "5dee534bac98feaf40a115abb14836ddca8dc089f79254853746cfb9f5502008",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part007"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part008",
+          "bytes": 33554432,
+          "sha256": "204df3e69c88fc26bc82b74329850807f090e22e70640dcb29fbcbd59ddec5ef",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part008"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part009",
+          "bytes": 33554432,
+          "sha256": "7e4c8f95ef15028dc3a64f00de11d129b4a5d093c47e0c0ba658e58e7388aae9",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part009"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part010",
+          "bytes": 33554432,
+          "sha256": "ec3facfe883d024426f744c3eae3a6a9c2d7614269dd9aa3d7d9fbef108bd7dc",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part010"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part011",
+          "bytes": 33554432,
+          "sha256": "76ca2f7372583c1e4abf16a0eac193791d67eff65e9b7dd96760176199dad562",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part011"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part012",
+          "bytes": 33554432,
+          "sha256": "518bae42f49b17110e7cf74d2bc60d94ff83f068db56880e4cbea3592bd5fa83",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part012"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part013",
+          "bytes": 33554432,
+          "sha256": "b6905fad832f7f9d7ea321108408071837e3f05a617a112484c47087df954aad",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part013"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part014",
+          "bytes": 33554432,
+          "sha256": "a127466ab9079583e5b454a1e0befc970f1b78875ee99b098f5e292184234b03",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part014"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part015",
+          "bytes": 33554432,
+          "sha256": "4a278ea3899306b44411d97b867406089e2acc4dda23a8243d962f2e523ba4fb",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part015"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part016",
+          "bytes": 33554432,
+          "sha256": "8dfeb4a022123fe94f6fd7969fe3289213283bb598cc2be7767776e8ab1b7659",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part016"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part017",
+          "bytes": 33554432,
+          "sha256": "1855ac57267c892be66178ef6660e1060d571f0b76d8703b02f64597419be739",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part017"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part018",
+          "bytes": 33554432,
+          "sha256": "1b7d46b289f045f142b7413ed93a3e4e54c90dcb89c788b687c88f7db944cd65",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part018"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part019",
+          "bytes": 33554432,
+          "sha256": "7db09d56ddb5a3809a1f02e48ac91a1b82d37e3d6305a86d1fc5a89fc37cbfaa",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part019"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part020",
+          "bytes": 33554432,
+          "sha256": "aea9b31db5dec215384d786320169ac74d1c444b7f9d28c3b42922f0240e7ca0",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part020"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part021",
+          "bytes": 33554432,
+          "sha256": "f834f0bc9cf35a3d6de07cf150194def136b586afb9d7f22cee8c971634f1f5a",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part021"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part022",
+          "bytes": 33554432,
+          "sha256": "dd34683d4d5efc32a330ec67f70ec6c86155321a7982d13a9078203b39e6bd0b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part022"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part023",
+          "bytes": 33554432,
+          "sha256": "048cd11e27bbaff9997545e4c283530ba857ea99768e92eb1d61267491ef083c",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part023"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part024",
+          "bytes": 33554432,
+          "sha256": "d8807bf4adf70f740e46eaed32d37fbba83750d5e7a3e1c7ea9cf8efaabd1511",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part024"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part025",
+          "bytes": 33554432,
+          "sha256": "37e1ff82307856f72c3ea9e47461e2f2a5080eebfac4355de2526ae81f078096",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part025"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part026",
+          "bytes": 33554432,
+          "sha256": "0feb8f9ea44e5c09f0c4d5f3ea410ecfba4b19ddf70536e056b5fbcbadcf7ea9",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part026"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part027",
+          "bytes": 33554432,
+          "sha256": "509aa1d07eef8b0e91574332b3a0c6a6069b14174d5ca84db5ef84b3a3c3331c",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part027"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part028",
+          "bytes": 33554432,
+          "sha256": "b5f7dce34417fd349fe6bff896e44fcc5a86593d463774b2be8704e61fc54245",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part028"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part029",
+          "bytes": 33554432,
+          "sha256": "48cff813229bbe3f435fe04fc119bdbdf4d653463e06cdcb7ade8bf16ac652bb",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part029"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part030",
+          "bytes": 33554432,
+          "sha256": "7af9af460c8008b04c71e799e752d4d41156b938a99f4ad7c9128e4182e66fba",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part030"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part031",
+          "bytes": 33554432,
+          "sha256": "e361d43197fd8b90520f1d4d49c49760de7a966d144e3c661d4c6e4293cfc943",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part031"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part032",
+          "bytes": 33554432,
+          "sha256": "190ae66875b394f56b7eb8932cd4623087619be6e361fdeb338c35e7966bfc24",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part032"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part033",
+          "bytes": 33554432,
+          "sha256": "e7af61823cf48607eef2a553952c91f875ef201846c7df7ae71866187ee6d1a1",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part033"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part034",
+          "bytes": 33554432,
+          "sha256": "36743d01a364a75d5540991d94c6b57ef8e2630e8fa833d8f9a4d2670d240293",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part034"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part035",
+          "bytes": 33554432,
+          "sha256": "5a2a1a57eaab67b177b76efbaf3ad542976ff2201cd6b6bfb745673fe2778d86",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part035"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part036",
+          "bytes": 33554432,
+          "sha256": "09590b7bd222d09ad5a2b5271edfb040287c3e8cfe99fa1787ccbdac3292d8c6",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part036"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part037",
+          "bytes": 33554432,
+          "sha256": "57ee5810f344fdbe6433582b002324c14d8427891976ff1564ee3e9365775242",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part037"
+        },
+        {
+          "name": "Satellite_Optical_Research_V6_Raw_Data.zip.part038",
+          "bytes": 5257540,
+          "sha256": "53801866d6bdac0a8899990d1e6186751ef619e5d6cec1bed9fafa24823b4cce",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V6_Raw_Data.zip.part038"
+        }
+      ]
+    },
+    {
+      "name": "Satellite_Optical_Research_V7_Raw_Data.zip",
+      "bytes": 1321238634,
+      "sha256": "79945c97c5d958192d572e5ddbacca37c5c78cbbfd4c6e91f53b1682b38f0bbf",
+      "parts": [
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part001",
+          "bytes": 33554432,
+          "sha256": "d1853fc39202944a6726da22c6046846ffbd33d5ad7267d19f4f4200604ec83b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part001"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part002",
+          "bytes": 33554432,
+          "sha256": "03f104d57ded8147cb60f0ad7039f27b77c8722169e5f46824f0aa312954425c",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part002"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part003",
+          "bytes": 33554432,
+          "sha256": "da57cc60e74cce8e6c94679c1c4d6508c806b4dd83241f9fde9a599acd60d85e",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part003"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part004",
+          "bytes": 33554432,
+          "sha256": "61dc936ce1f29192603bae5ce1e3ecff25eadbe457d55fdf4e8c7740efe79a67",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part004"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part005",
+          "bytes": 33554432,
+          "sha256": "65425415f1402c26ced1afb69c6368675b9fc2e732130fb415fbb555b354ae23",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part005"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part006",
+          "bytes": 33554432,
+          "sha256": "47f985d0e3d68321c5f8a6aa5a03705f8419e992ab01e1c55b0d41daeae9074b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part006"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part007",
+          "bytes": 33554432,
+          "sha256": "becdf1234292e13459ed65dbd5ef3bea29dd3d41ad2d800a2e62805e708964d3",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part007"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part008",
+          "bytes": 33554432,
+          "sha256": "eebd3f75a5d3b76e660f8197f7e50cdfc0f674b3e045f45d516fbf6cbc8ec6de",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part008"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part009",
+          "bytes": 33554432,
+          "sha256": "b5bf8fc113f1a26ee5f050b02ebe22b3b117e816723682f2e22ab9afedcd21b0",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part009"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part010",
+          "bytes": 33554432,
+          "sha256": "7871f6442b8a661faeca37fc4ddd538e1032a76f274ebf941b56456dc7c41cfb",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part010"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part011",
+          "bytes": 33554432,
+          "sha256": "d0f99682641d8f06451b29580d273f73e7feeeca95a9b8ca4320a5dbe1f46acf",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part011"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part012",
+          "bytes": 33554432,
+          "sha256": "8753358f0b75f742ab31329d98ecd2367c674c16cf1175d080e81c8cb2cab387",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part012"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part013",
+          "bytes": 33554432,
+          "sha256": "353cb78858f8c321b863a7d3cf299b6943daf2b23b6d9c198a55e72bc34c5ae8",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part013"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part014",
+          "bytes": 33554432,
+          "sha256": "90162aaef2f0c3f1cd24714caa2369f54b31c2ad0f5e6655e5dae3b52b953e98",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part014"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part015",
+          "bytes": 33554432,
+          "sha256": "c566297a03773c9691e78c5ffd6dcb4e43c26ceb9ea36873b407f6f9e2291346",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part015"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part016",
+          "bytes": 33554432,
+          "sha256": "9de3752be31101e917fade443dcb5bbf1ed54b907cf0aa122d2813661acad006",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part016"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part017",
+          "bytes": 33554432,
+          "sha256": "f52285717332f4473b095231011be8db74ca29b49abf05485867f070d7b5d70b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part017"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part018",
+          "bytes": 33554432,
+          "sha256": "65cf431a5b45ff93f4e73448e66534244cf35206c10b40767ae610124a74b8ec",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part018"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part019",
+          "bytes": 33554432,
+          "sha256": "d1b0b1e3342b9b716245aa0934e1113ea40dfcbcb5d6b5e7650a4280509395b1",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part019"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part020",
+          "bytes": 33554432,
+          "sha256": "e0c72bf76169cf272c431fe3d62774d32e085e8e381a8712233717257f5543c3",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part020"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part021",
+          "bytes": 33554432,
+          "sha256": "a590d9fcc83c04abaaff491a2572f62bb38166faeda0628ddc800ab22eb16bed",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part021"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part022",
+          "bytes": 33554432,
+          "sha256": "9972a38467fe9170ca9dacc8349c71ac678820b681f3688dd41ccba7995f7cc0",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part022"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part023",
+          "bytes": 33554432,
+          "sha256": "740657731575ec06bffe0f1cea8722562ce0c289d94b15cdc6bc16d745f56c6b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part023"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part024",
+          "bytes": 33554432,
+          "sha256": "adef30dd7746e5575cf2b2a3e8b113eda8045878cd84620ddc3640b49e150e6e",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part024"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part025",
+          "bytes": 33554432,
+          "sha256": "7294a257f8427d0d58073ebaf4af8d952f9cf0eaa3db510bd1508b49f449ca7f",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part025"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part026",
+          "bytes": 33554432,
+          "sha256": "da0fec465bba49c20bb835c33108d278855717e2751a98d3be337bac5bcdef91",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part026"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part027",
+          "bytes": 33554432,
+          "sha256": "fb88a7f456491d3866e287c62ea13b7e36b2b69acd15eebbcf7391a6eb51784a",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part027"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part028",
+          "bytes": 33554432,
+          "sha256": "499d59b9d97953139d520de9004596a5d72a523ecbd5ee3b4d0f540dfe2b6074",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part028"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part029",
+          "bytes": 33554432,
+          "sha256": "479e430eb15c9ebe63f2738cdba44dcdf6a41c317c3dc6b00336e9a38470c13d",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part029"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part030",
+          "bytes": 33554432,
+          "sha256": "adc7d3df9027e609c24192679348aa4c81f66e070375e0f103c1287991581b74",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part030"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part031",
+          "bytes": 33554432,
+          "sha256": "13644ffa510b62ee3b47a68f41de489ace6f236aea11330706f309079f56afab",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part031"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part032",
+          "bytes": 33554432,
+          "sha256": "476e5fd1cae220c98a31f7b6f280ddcbc37e0d6c0c1c38e95dcd8886e4e97f3b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part032"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part033",
+          "bytes": 33554432,
+          "sha256": "dd2c74167c8deeb37ea3c8306faf709f4ccdcfa040a17354d2f258ec32fb561e",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part033"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part034",
+          "bytes": 33554432,
+          "sha256": "d2bc48c1a0d8a101fef5a993c6aaa6c26c423858fcab729d955116d08ff10b6e",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part034"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part035",
+          "bytes": 33554432,
+          "sha256": "a701c54639e4f3c8b496722435c8df3934148b92eec2ec3a954e1d92c5ce374b",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part035"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part036",
+          "bytes": 33554432,
+          "sha256": "46773262eed5dfcf4aa116ef7af60442f9dd7b886697e01bcf1689bd14fe3507",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part036"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part037",
+          "bytes": 33554432,
+          "sha256": "911bbdfd096a06b9033fa141379df121eb5d2ab8028522315bb671426a1182f5",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part037"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part038",
+          "bytes": 33554432,
+          "sha256": "df84dd8a66e327784c923522ddce29904c41a64297d4b3b25a1bc718ed12b72f",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part038"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part039",
+          "bytes": 33554432,
+          "sha256": "72edb0311cdb6f7cec88ceea4a8b6f6f15ab4ca1317cd269fe5c205ca8ceae68",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part039"
+        },
+        {
+          "name": "Satellite_Optical_Research_V7_Raw_Data.zip.part040",
+          "bytes": 12615786,
+          "sha256": "447221de311fa0bad8f6eb302372b138e26d0c206f1274f83bd3d9fac9e64262",
+          "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery/releases/download/research-v7-2026-10-23/Satellite_Optical_Research_V7_Raw_Data.zip.part040"
+        }
+      ]
+    }
+  ]
+}

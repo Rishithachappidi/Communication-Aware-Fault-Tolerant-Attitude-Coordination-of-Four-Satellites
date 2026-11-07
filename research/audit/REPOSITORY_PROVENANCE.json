@@ -1,0 +1,20 @@
+[
+  {
+    "requested": "kaushalrog/Satellite-Optical-Fault-Recovery",
+    "resolved_full_name": "kaushalrog/Satellite-Optical-Fault-Recovery",
+    "fork": true,
+    "parent": "Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
+    "license": null,
+    "html_url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
+    "default_branch": "main"
+  },
+  {
+    "requested": "Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
+    "resolved_full_name": "Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
+    "fork": false,
+    "parent": null,
+    "license": null,
+    "html_url": "https://github.com/Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
+    "default_branch": "main"
+  }
+]

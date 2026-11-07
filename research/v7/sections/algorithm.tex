@@ -1,0 +1,69 @@
+\section{Finite-Model Enclosure and Authorization Algorithm}
+\subsection{Sampled actuator maps}
+For one unsaturated axis, let $x=(q,v,a,I)^T$ and $w=(r,n_q,n_v)^T$. With $J_a=J_0m_1$, $\tau_a=\tau_0m_2$,
+\begin{equation}
+A_m=\begin{bmatrix}
+0&1&0&0\\0&-d/J_a&1/J_a&0\\
+-J_0k_p/\tau_a&(d-J_0k_d)/\tau_a&-1/\tau_a&-J_0k_i/\tau_a\\
+1&0&0&0
+\end{bmatrix},
+\end{equation}
+\begin{equation}
+B_m=\begin{bmatrix}0&0&0\\0&0&0\\J_0k_p/\tau_a&-J_0k_p/\tau_a&(d-J_0k_d)/\tau_a\\-1&1&0\end{bmatrix}.
+\end{equation}
+The angle and rate disturbance columns carry different input units. Form $\mathcal A_m=\begin{bmatrix}A_m&B_m\\0&0\end{bmatrix}$ and
+\begin{equation}
+P_4(h\mathcal A_m)=I+h\mathcal A_m+
+\frac{h^2\mathcal A_m^2}{2}+\frac{h^3\mathcal A_m^3}{6}+\frac{h^4\mathcal A_m^4}{24}.
+\end{equation}
+Its upper blocks are the exact map $A_{d,m},B_{d,m}$ of this held-input RK4 implementation, rather than the exact continuous-time exponential. Write $B_{dn,m}$ for its sensor columns and $n_{\max}=\kappa(\sigma_q,\sigma_v)^T$.
+
+Starting from zero state, a coordinatewise finite-impulse bound is
+\begin{equation}
+\rho_{x,m}=\sum_{j=0}^{N-1}|A_{d,m}^{j}B_{dn,m}|n_{\max}.
+\label{eq:impulse}
+\end{equation}
+The nonnegative mission-length sum overbounds all shorter pre-trigger histories. Mean trajectories are propagated for each model with the proposed reference; the nominal mean is $\mu_{0,i}$ and each member's mean is $\mu_{m,i}$. A two-axis angular radius around the nominal mean is
+\begin{equation}
+\rho_{q,i}=\max_{m\in\mathcal M}\left[
+\norm{\mu_{m,i}^{q}-\mu_{0,i}^{q}}+\sqrt2\rho_{x,m}^{q}\right].
+\end{equation}
+The delivered increment uses $\bar d_i=\mu_{0,i}^{q}-q_m(t_0)$ and $r_i=\rho_{q,i}+\epsilon_q$. Triangle containment then includes the measured-start error. This construction depends on the zero initial state and zero pre-probe reference; it is not a restart formula for an arbitrary prior maneuver.
+
+\subsection{Why stage constraints are necessary}
+The linear map applies only while the plant's nonlinear clips and anti-windup are inactive. For each RK4 stage, derive its state as $S_lx+T_lw$, with $S_1=I,T_1=0$ and, successively,
+\begin{equation}
+S_l=I+\beta_l A_m S_{l-1},\quad
+T_l=\beta_l(A_mT_{l-1}+B_m),
+\end{equation}
+where $\beta_2=\beta_3=h/2$, $\beta_4=h$. The raw-torque row is $C_u=(-J_0k_p,d-J_0k_d,0,-J_0k_i)$ plus the direct reference and sensor terms. Finite-impulse sums of $C_uS_lA_{d,m}^jB_{dn,m}$ bound its history-driven uncertainty; direct stage-input terms are added. The rate row is handled identically. Every axis, stage, sample and finite member must satisfy strict torque/rate containment.
+
+Induction establishes consistency: if all previous sampled states belong to the enclosure and each proposed stage remains inside its clamps, the clipped plant follows the unsaturated RK4 stage equations and the next state belongs to the propagated enclosure. If a stage cannot be enclosed strictly, the candidate is refused; the library does not claim to enclose an arbitrary saturated trajectory. Independent calculations reproduce six maps, eight previously audited candidates/tubes and 33,024 stage checks. Full stage algebra and numerical differences are in the supplement.
+
+\subsection{Candidate selection and estimation}
+The present library contains four amplitudes $\{2,4,6,8\}\um$, one dwell length .36~s and eight balanced dwells per candidate. Constraint and approximate information checks precede the service calculation. The latter requires an estimated offset radius no greater than $1\um$; it is a design heuristic, not an estimator-coverage theorem. Among admissible candidates, the source cost is duration plus $0.03h\sum_i\norm{\mu_{0,i}^{q}/(1\um)}^2$, with the numerical cost coefficient interpreted in the source's chosen seconds units. This is a heuristic ranking, not electrical energy minimization.
+
+For the diagnostic fit, let $Q_i=q_{m,i}^T/\alpha$ and remove affine temporal nuisance using an orthogonal projection $P$. With exact regressors, $F=Q^TPQ\succ0$ determines identifiability. For independent Gaussian log noise of variance $\sigma^2$ and exact regressors, the offset covariance is $C_b=\alpha^2\sigma^2F^{-1}/16$; a 95\% enclosing radius is $\sqrt{5.991464547\lambda_{\max}(C_b)}$. The implemented iterated feasible GLS instead uses noisy angle regressors and approximate transformed multiplicative-noise variance. Residual, radius, offset-prior and gain-range checks determine fit acceptance. Consequently its radius remains approximate even when the service certificate is valid.
+
+\subsection{Contract interface and pseudocode}
+The evidence interface records finite-model membership, angle/rate/power units, marginal-tail/scales, mission start/horizon, validity expiry and references for actuator, sensor, optical and window contracts. The new wrapper additionally refuses a window that would extend beyond the remaining mission horizon. These checks verify metadata consistency; validating the referenced reports belongs to an external evidence authority. Synthetic simulation references are refused for physical deployment.
+
+\begin{table}[t]
+\caption{Supervisor algorithm. All permissions remain conditional on evidence truth. ``Fallback'' means a separately validated neutral-controller policy.}
+\centering\footnotesize
+\begin{tabular}{@{}p{.94\columnwidth}@{}}\toprule
+\textbf{Inputs:} measurements/history, candidate library, finite-model maps, evidence contracts, mission time, $p_{\min}$, budgets.\\\midrule
+1. Check evidence presence, authority/provenance, expiry, units, model membership and remaining horizon. Refuse on failure.\\
+2. Form the simultaneous power interval. Refuse detector-floor/invalid intervals. Enable acquisition budget only if its upper endpoint is below $p_{\min}$.\\
+3. For each candidate: reject invalid RK4-stage clamps, failed information checks or unavailable enclosure. Form initial-error ball, increment balls and $\underline p_i$.\\
+4. Reject candidates with $h\sum_i\mathbf1\{\underline p_i<p_{\min}\}>B$. If none remain, abstain. Otherwise choose minimum source cost and issue conditional probe permission only.\\
+5. During the probe, compare measured power's upper envelope with the predicted true-power lower bound. On breach: mark uncertified, inhibit repeated probing, request validated fallback.\\
+6. After completion, estimate and report fit acceptance/uncertainty separately. Do not infer verified diagnosis or recovery authorization from step~4.\\\bottomrule
+\end{tabular}
+\label{tab:algorithm}
+\end{table}
+
+A monitor breach means $p_m/(1-\eta)<\underline p_i$, up to numerical tolerance. It signals inconsistency, not guaranteed immediate restoration of service. The current plant experiments evaluate selection and recorded outcomes; the monitor is replayed in shadow mode and does not constitute a closed-loop physical protection test.
+
+\subsection{Computational scaling}
+For fixed state dimension, precomputing history impulse/stage sums costs $O(MN)$ and propagating $K$ candidate mean/stage trajectories costs $O(KMH)$. Source loops recompute some impulse sums per candidate, giving $O(KM(N+H))$ for the current implementation. At a trigger, candidate lower-bound evaluation costs $O(KH)$; per-sample monitoring is $O(1)$. Storing all candidate means/radii costs $O(KH)$, apart from optional full raw traces. Reported desktop timings exclude offline library construction and are descriptive, not embedded worst-case timing or a flight-computing qualification.

@@ -1,0 +1,10 @@
+scenario,n,estimand,mean_difference,ci95_low,ci95_high,family9_low,family9_high
+healthy,100,UAD minus DAP outage seconds,0.0,0.0,0.0,0.0,0.0
+pointing,100,UAD minus DAP outage seconds,0.8642,0.39417,1.395805,0.25619000000000003,1.6490277777777782
+linear_drift,100,UAD minus DAP outage seconds,0.7267999999999999,0.362595,1.1470049999999998,0.24286333333333318,1.3528961111111113
+attenuation_only,100,UAD minus DAP outage seconds,0.0,0.0,0.0,0.0,0.0
+quadratic_drift,100,UAD minus DAP outage seconds,0.7859999999999999,0.373555,1.2610399999999993,0.25710888888888883,1.5155616666666683
+fast_fading,100,UAD minus DAP outage seconds,0.10319999999999999,0.07019499999999995,0.13820000000000002,0.058731666666666654,0.15299999999999997
+deep_loss,100,UAD minus DAP outage seconds,0.0,0.0,0.0,0.0,0.0
+near_threshold,100,UAD minus DAP outage seconds,0.0,0.0,0.0,0.0,0.0
+dark,100,UAD minus DAP outage seconds,0.0,0.0,0.0,0.0,0.0

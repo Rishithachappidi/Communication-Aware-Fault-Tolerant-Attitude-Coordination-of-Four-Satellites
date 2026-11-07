@@ -1,0 +1,83 @@
+{
+  "declared_before_native_outcomes": "23-Oct-2026 17:53:49",
+  "source_protocol": "Final V5 comparison protocol already frozen; native eight-second ES added with identical seeds/configurations. Main comparison outcomes existed before this extension; no settings selected from them.",
+  "duration_s": 8,
+  "seeds": [
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008,
+    5009,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019,
+    5020,
+    5021,
+    5022,
+    5023,
+    5024,
+    5025,
+    5026,
+    5027,
+    5028,
+    5029,
+    5030,
+    5031,
+    5032,
+    5033,
+    5034,
+    5035,
+    5036,
+    5037,
+    5038,
+    5039,
+    5040,
+    5041,
+    5042,
+    5043,
+    5044,
+    5045,
+    5046,
+    5047,
+    5048,
+    5049,
+    5050
+  ],
+  "conditions": [
+    {
+      "name": "nominal",
+      "noise": 1,
+      "bias": 0,
+      "beam": 1
+    },
+    {
+      "name": "noise5",
+      "noise": 5,
+      "bias": 0,
+      "beam": 1
+    },
+    {
+      "name": "bias2",
+      "noise": 1,
+      "bias": 2,
+      "beam": 1
+    },
+    {
+      "name": "early_fault",
+      "noise": 1,
+      "bias": 0,
+      "beam": 0.9
+    }
+  ]
+}

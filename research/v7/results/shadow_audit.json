@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "conditional_authorizations": 1421,
+  "monitor_samples": 204624,
+  "breaches": 0,
+  "scope": "V7 remaining-horizon/unit checks replayed on original UAD records with actual mission start; shadow mode only."
+}

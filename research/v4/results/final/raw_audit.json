@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "primary_traces": 10800,
+  "sensitivity_traces": 18450,
+  "counterfactuals_regenerated": 3400,
+  "mat_files": 77,
+  "elapsed_s": 77.936478208333327
+}

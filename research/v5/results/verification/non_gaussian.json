@@ -1,0 +1,10 @@
+{
+  "status": "executed_out_of_model",
+  "distribution": "Student-t5, independently sampled and rescaled to unit variance",
+  "missions": 1000,
+  "global_event_failures": 997,
+  "selected_minimum_false_acquisitions": 477,
+  "single_marginal_tail": 0.0017881276232619406,
+  "independent_global_event_failure_theory": 0.9980964768327062,
+  "scope": "Same variance does not justify Gaussian kappa. This synthetic adverse-time test is not the optical plant trigger; it invalidates transferring Gaussian calibration to these tails."
+}

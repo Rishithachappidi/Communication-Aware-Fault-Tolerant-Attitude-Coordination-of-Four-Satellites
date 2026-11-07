@@ -1,0 +1,42 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 618,
+    "sha256": "81d34e0b18319ee2a01277a48e3f54193019ca83b7c6257fc13d562cc460ff3b"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 469,
+    "sha256": "075896305177fbdb6c257aa569bd899039f693f0c33fd9ce05095bbdc4bcbd2b"
+  },
+  {
+    "path": "PACKAGE_CONTENTS.json",
+    "bytes": 223270,
+    "sha256": "77b7434bee5bb203fec20d3717990241bfa64414224adc472c4befea5bca1978"
+  },
+  {
+    "path": "PACKAGE_MANIFEST.json",
+    "bytes": 143901,
+    "sha256": "ffbd2cd601a17f44c545de935a6e132482fba6f02b343357594330d38029e984"
+  },
+  {
+    "path": "START_HERE.md",
+    "bytes": 2626,
+    "sha256": "7e4f27b69d2ccf354a269c2c67d98da666f983ceb29aa5e47a28f6be51927083"
+  },
+  {
+    "path": "research/v4/results/final/integrity.json",
+    "bytes": 427,
+    "sha256": "da13851aebbe2aa9d0c1e0da47fb554434c1df8b6bd7669e93239fc7b636a8b3"
+  },
+  {
+    "path": "results/run_20261014_185235_444/tables/all_trials.csv",
+    "bytes": 147845,
+    "sha256": "3af7bc0b10c40dd29d827ed2bffbfdb8b81ca3c7cae4da25068b7df7a124c7d7"
+  },
+  {
+    "path": "revisions/v2/models/SatelliteOpticalNetwork_4_v2.slx.original",
+    "bytes": 229400,
+    "sha256": "6e48bb6c764d1f283261abf9d1faa8a356d1e4083768139a4baf43b04a7dac87"
+  }
+]

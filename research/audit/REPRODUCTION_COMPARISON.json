@@ -1,0 +1,12 @@
+{
+  "research/audit/reproduction/primary.csv": {
+    "rows": 5400,
+    "expected": 5400,
+    "mismatches": []
+  },
+  "research/audit/reproduction/stress.csv": {
+    "rows": 3600,
+    "expected": 3600,
+    "mismatches": []
+  }
+}

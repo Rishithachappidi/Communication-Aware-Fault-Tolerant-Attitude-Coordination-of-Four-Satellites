@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "original_protected_files": 141,
+  "V4_preserved_files": 225,
+  "frozen_matlab_sources": 41,
+  "V4_traces_independently_checked": 29250,
+  "V5_traces_independently_checked": 12000,
+  "external_human_review": false,
+  "hardware_validation": false,
+  "unavailable_historical_files": [],
+  "original_available_checked": 141,
+  "V4_available_checked": 225
+}

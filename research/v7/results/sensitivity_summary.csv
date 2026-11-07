@@ -1,0 +1,4 @@
+condition,n,accepted,confidence_misses,accepted_error_above_1um
+nominal,50,46,1,0
+bias2,50,39,39,39
+noise5,50,0,0,0

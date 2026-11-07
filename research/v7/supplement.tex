@@ -1,0 +1,128 @@
+\documentclass[10pt,journal]{IEEEtran}
+\usepackage[letterpaper,top=1in,bottom=1in,left=.7in,right=.7in,columnsep=.2in]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,fontspec}
+\usepackage[hidelinks]{hyperref}
+\setmainfont{Times New Roman}
+\newcommand{\norm}[1]{\lVert#1\rVert}
+\raggedbottom
+\begin{document}
+\title{Supplementary Material: Conditional Probe Authorization for Optical Fault Diagnosis Under Finite Actuator-Model Uncertainty}
+\author{}\maketitle
+\begin{abstract}
+This supplement records analytic details, source reconciliation, evidence provenance, statistical corrections and reproduction instructions for the V7 research manuscript. It preserves prior versions and distinguishes a 7,200-run original admission confirmation from a separately frozen 7,200-run baseline extension. No historical outcome is silently replaced, no hardware evidence is inferred from simulation, and no submission approval or source license is invented.
+\end{abstract}
+\section{Evidence Ledger and Version Reconciliation}
+The regular-paper narrative follows the fuller model/design/theorem/evaluation architecture already present in the project-local V4 manuscript. Its scientific values instead come from the explicitly identified protocols below. V4, V5 and V6 are not interchangeable experiment labels.
+
+\begin{table}[!b]
+\caption{Distinct evidence datasets; do not sum them into an independent confirmation population.}
+\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{.18\columnwidth}p{.22\columnwidth}p{.54\columnwidth}@{}}\toprule
+Version & Records & Purpose / limitations\\\midrule
+Original & 9,000 reproduced runs & Original behavior reproduction; 141 original files preserved\\
+V4 & 29,250 trials & 10,800 primary + 18,450 sensitivity; partial old histories\\
+V5 & 12,000 trials & 7,200 comparisons, 3,000 actuator-grid, 1,800 native ES\\
+V6 & 6,748 map points & Deterministic development; not plant runs\\
+V6 & 7,200 trials & Two-selector causal confirmation; full states/noise\\
+V7 & 7,200 new trials & Later matched KF/ES extension; full states/noise\\\bottomrule
+\end{tabular}
+\end{table}
+
+The V4 public release is identified by tag \texttt{research-v4-2026-10-23}, commit \texttt{896452e}. The original reused terminal snapshot is \texttt{0bc453ffa0ad}. V7 identifies its uncommitted research sources through a complete SHA-256 manifest before packaging; a publication commit, if created, is additional metadata, not a replacement for that snapshot. The primary workspace's unrelated staged files are not altered.
+
+V5's 2,800 UAD/fixed-guard trajectory pairs were identical and remain so. That result is retained, not merged with the distinct admission-frontier study. The V6 parameter regime uses lower sensor noise and nondeclining gain at selected frontiers. V7 calls the same V6 plant/trial implementation for the two new architectures. It adds explicit rate-noise metadata and a derived measured-rate trace; it does not modify the inherited sensor kernel or the original selector outcomes.
+
+V7's protocol is frozen before the new baseline runs but after V6 outcomes are known. Accordingly, the combined 14,400 records form a matched exploratory comparison across two protocols, not an originally untouched four-method confirmation. All controls, negative results and incomplete runs are retained.
+
+\section{Rate-Noise Units and Source-Level Audit}
+The source \texttt{simulink/terminal\_kernel.m} computes angle measurements using numeric coefficient \texttt{p(13)} and rate measurements using \texttt{2*p(13)}. The parameter exporter sets \texttt{p(13)=c.noise}. The original code stores numbers rather than SI type annotations; multiplying an angle standard deviation by a dimensionless two would not be a dimensionally valid physical equality.
+
+The paper therefore declares distinct scales $\sigma_q$ in radians and $\sigma_v$ in radians per second. It documents the inherited numeric relationship as $\sigma_v=\gamma_v\sigma_q$, $\gamma_v=2$~s$^{-1}$. This establishes a dimensionally consistent interpretation of the numeric sensor policy; it does not prove its original author's physical intent or validate that relationship against hardware. Independent rate calibration remains missing. No old simulation value changes.
+
+\texttt{audit\_measurement\_units.m} directly calls the source sensor kernel, checking its angle and rate outputs against separately scaled perturbations at noise scales .25, .75 and 1, each across 700 samples. It records 2,100 checked samples with zero maximum numerical error. Base scales are $8\times10^{-8}$ rad and $1.6\times10^{-7}$ rad/s. At scales .25/.75 they are $(2,4)\times10^{-8}$ and $(6,12)\times10^{-8}$ in their respective units. The finite-model input matrix has distinct angle/rate disturbance columns, so the impulse enclosure uses $\kappa(\sigma_q,\sigma_v)^T$.
+
+For $N=700$, five channels and $\delta=.01$, the source returns $\kappa=4.6808310827377051$ via the inverse complementary error function. The mathematically equivalent inverse-normal routine differs in last floating-point digits because it evaluates a probability close to one. The rounded manuscript value is 4.680831082738. The exact formula, channel count, horizon and per-channel tail, $\delta/(5N)=2.857142857\times10^{-6}$, are retained rather than a generic ``three sigma'' description.
+
+\section{Detailed Analytic Audit}
+\subsection{Angular identity, nonnegative slacks and equality}
+With $e_0=c+u$, $d=\bar d+w$, $\norm u\leq R$, $\norm w\leq r$, define $A=\norm{\bar d}$ and $C=\norm{c+\bar d}$. The exact difference between the proposed upper loss and $2e_0^Td+\norm d^2$ is
+\begin{align}
+2(RA-u^T\bar d)&+2(rC-(c+\bar d)^Tw)\nonumber\\
+&+2(Rr-u^Tw)+(r^2-\norm w^2).
+\end{align}
+Cauchy--Schwarz bounds each dot product by the product of nonnegative norms, and the final term is nonnegative by radius containment. This is an analytic proof, without linearization. In two dimensions, the polynomial identity underlying Cauchy is
+\begin{equation}
+(a^Ta)(b^Tb)-(a^Tb)^2=(a_1b_2-a_2b_1)^2\geq0.
+\end{equation}
+For $c=0$, $A>0$, choose $u=R\bar d/A$, $w=r\bar d/A$. This attains $2R(A+r)+(A+r)^2$. For $A=0$, any common unit direction gives attainment $2Rr+r^2$. Both constructions include zero radii. Noncentered equality generally need not hold because several Cauchy equalities may require incompatible directions.
+
+The exact SymPy audit verifies the slack expansion, Gram determinant, centered attainment modulo $\bar d^T\bar d=A^2$, the separate zero-increment case and radian/microradian exponent scaling. These are exact algebraic checks supporting the written argument, not a complete Lean/Coq proof or external expert review. The separate boundary optimization checks 1,200 cases and 9,600 direct power evaluations. Those numerical checks corroborate, rather than replace, the proof.
+
+\subsection{Power conversion and adaptive start}
+Fixed $b,\alpha$ and positive $p(t_0)$ give the exact log-power ratio in the main text. For nonnegative upper angular loss $D$, $\alpha\geq\alpha_-$ implies $-2D/\alpha^2\geq-2D/\alpha_-^2$. If $D<0$, replacing it by zero gives a conservative loss bound without reversing that inequality. This is why the positive-part operator is needed in the general noncentered formulation.
+
+The union bound sums the two-sided marginal tail over all $5N$ channel/time pairs; no independence is used. Every starting-power interval then holds simultaneously. Selecting the start from the observations cannot remove this pathwise property. This does not create an exact conditional probability given selection, and it does not condition estimator confidence on acceptance. Incorrect tail scales or bias invalidate the event calibration.
+
+With $\eta=\kappa\sigma_p<1$, positive true power implies a positive multiplier on the event, so source zero clipping does not modify the interval. True zero yields measured zero and detector-floor refusal. For $\eta\geq1$, a finite upper interval cannot be inferred. The preserved 10,000-mission Gaussian stress has 100 global event failures; this is a synthetic event test rather than the causal terminal trigger. The equal-variance Student-$t_5$ stress has 997/1,000 global event failures, with 477 adverse minimum-time acquisition indications. These are deliberately distinct experiments.
+
+\subsection{RK4-stage enclosure and induction}
+One-axis state ordering is $(q,v,a,I)$; the stored eight-state plant ordering is $(q_1,q_2,v_1,v_2,a_1,a_2,I_1,I_2)$. Converting between them is explicit in the independent check. For held $w$, the four stage states obey $x_l=S_lx+T_lw$. Their recurrences and raw-torque rows in the main paper include current sensor terms as well as prior state uncertainty. Simply checking only the final step torque would not establish clip inactivity at intermediate RK4 stages.
+
+The source finite-impulse sum uses the absolute impulse matrices, not iterative powers of $|A_d|$ that can create wrapping. Its $N$ terms overbound the shorter zero-reference pre-trigger histories. For the raw-torque row at a stage, the history contribution is
+\begin{equation}
+\sum_{j=0}^{N-1}|C_uS_lA_d^jB_{dn}|n_{\max},
+\end{equation}
+plus the absolute current-input coefficient multiplying $n_{\max}$. The rate row follows the same construction. Model-specific mean deviations and the coordinatewise state noise radius are enclosed in a two-dimensional ball using $\sqrt2$ for two equal coordinate bounds. The initial encoder-vector error is added when replacing actual starting angle by measured starting angle.
+
+Induction begins at the zero initialized state. If the history is enclosed and every stage satisfies strict torque/rate inequalities, the clipped implementation equals the unsaturated equations on that step, and the discrete map produces an enclosed next state. This proof applies only to the finite members and declared reference history. The code refuses possible clamp activation. It provides no general saturated-system reachable set and no continuous-parameter inclusion proof.
+
+The prior independent audit checks six finite maps, eight library candidates and 33,024 stage constraints. Maximum discrete-map absolute discrepancy is $1.7764\times10^{-15}$ and tube discrepancy $2.2870\times10^{-20}$ rad. The current four .36-s candidates are a subset of the audited dwell/amplitude construction and retain source hashes. All new causal steps are separately replayed from complete states. Neither agreement is a directed-rounding interval certificate.
+
+\section{Estimator Confidence and Baseline Mapping}
+Exact projection removes a finite-dimensional affine log-gain nuisance for exact optical regressors. Encoder error creates an errors-in-variables problem. The implemented feasible GLS uses first-order variance and second-order mean approximations, estimated weights and acceptance thresholds. Its radius is labeled approximate. The main text exposes 26/594 accepted-radius misses at the favorable midpoint; it does not infer exact coverage from the observed fraction.
+
+An unmodeled angle bias $\beta$ produces the indistinguishable optical offset $b-\beta$ when the fit uses $q_m=q+\beta$. This structural ambiguity explains why small residuals and tight approximate radii can coexist with large actual offset error. In the separate 50-seed affine-drift sensitivity, nominal UAD has 46 acceptances and one radius miss; biased UAD has 39 acceptances, all 39 outside the radius and above one microradian error. The noise-times-five case has no accepted fits. The V7 consistent sensitivity table is rebuilt from preserved per-run records already covered by the separate historical raw audit.
+
+The parameter KF is a generic sequential filter on two transformed offset coefficients, intercept and slope. It uses zero process tuning and the inherited six-microradian waveform. ES uses washout, demodulation and integral center adaptation, not the complete safety-filtered ES architecture. Equal 2.88-s windows match the resource cap but not realized excitation, waveform information or output objective. ES has no diagnostic estimate and is excluded from fit-acceptance contrasts.
+
+Faithful chance-constrained AFD needs an explicit stochastic optical embedding and objective/constraint mapping; these are not supplied by the parameter KF. The public Massa--Paulson implementation is available at \url{https://github.com/PaulsonLab/Guaranteed_AFD_ADL}, but the checked MATLAB path lacks CORA \texttt{reach}/\texttt{interval}, YALMIP \texttt{sdpvar} and Gurobi. The dependency audit records those absences. They are environment observations, not statements that the tools cannot be installed. A faithful run, optical mapping and validation remain unfinished. The Oh--Noh publisher abstract supports topic positioning only; full-text algorithm reproduction was unavailable.
+
+\section{Historical Classification and Corrections}
+\begin{table}[t]
+\caption{Strict UAD calculated-bound evidence categories. Known failed premises take precedence over missing histories. These heterogeneous counts are not field-reliability populations.}
+\centering\footnotesize
+\begin{tabular}{llrr}\toprule
+Data & Category & Probes & Bound failures\\\midrule
+V4 & Within-premise & 0 & 0\\
+V4 & Out-of-model & 557 & 100\\
+V4 & Unverified & 1,564 & 0\\
+V5 & Within-premise & 402 & 0\\
+V5 & Out-of-model & 968 & 350\\
+V5 & Unverified & 0 & 0\\
+V6 & Within-premise & 1,421 & 0\\
+V6 & Out-of-model / unverified & 0 & 0\\\bottomrule
+\end{tabular}
+\end{table}
+
+The first V4 independent reconstruction found 1,564 compatible probes and 557 known failures of premises. Strict V6 classification moves those 1,564 to unverified because V4 lacks complete offset and rate-noise histories; reconstruction from documented injection formulas and scalar noise maxima is weaker than complete direct records. Old labels are preserved. The 100 observed V4 bound failures are all in the known out-of-model category. V5 retains full offset/noise histories, and V6 additionally retains full plant state/reference histories. ``Within-premise'' still presumes the declared generator and model; it cannot establish a physical distribution from one finite trace.
+
+V4 contains a disclosed correction of 94 exported premise flags after identifying mid-probe offset changes. Original exports, corrected rows and pre-repair source remain archived. V5 later had an adjusted bootstrap upper-tail error: $.975/36$ was used instead of $1-.025/36$. V6 supplies corrected exports changing 63 of 144 adjusted upper endpoints, preserving every per-run outcome, paired mean, ordinary 95\% interval and adjusted lower endpoint. V4's family-nine interval calculation was correct. V7 uses the corrected two-sided family helper rather than overwriting those earlier files.
+
+V7's checker extends one historical predicate: a nonaccepted probe is a rejected fit only if the probe completed. At the reverse midpoint, 30 KF and 30 ES probes begin too late to finish before 14~s. They remain selected but incomplete. The simulator correctly records no fitted rejection; the old checker assumed every selected diagnostic probe completed. V7 fixes the checker assumption and adds explicit incompletion counts, without changing raw outcomes. The new supervisory wrapper separately refuses a request exceeding remaining mission time. This wrapper is not retroactively asserted to have controlled the recorded runs.
+
+\section{Reproduction, Preservation and Scope}
+From the project root, \texttt{start\_research\_v7} configures MATLAB paths. \texttt{audit\_measurement\_units} performs the direct kernel check. \texttt{run\_matched\_baselines} refuses an existing output folder, so reproducing new plant outcomes requires a fresh extraction/directory rather than overwriting evidence. It uses the retained V6 protocol and trial function. The full source lineage is included in the code/report archive; historical raw archives are separate.
+
+Run the Python scripts \texttt{analyze\_baselines.py} and \texttt{build\_outputs.py} from any working directory. The former checks all 7,200 extension traces and regenerates common summaries, while the latter generates figures and printed table rows from the saved data. Requirements are pinned in the package. Twenty-two refusal/statistical/interface tests include explicit remaining-horizon and rate-unit tests. The new independent audit replays 5,040,000 steps with maximum state error $1.3553\times10^{-20}$, in addition to the preserved 5,040,000-step original audit. Complete per-run CSVs and MAT chunks are supplied.
+
+The code archive includes source hashes, the main/supplement TeX and PDFs, tables, figure sources, development map, baseline protocols, tests, independent reports and the reviewer-response matrix. The new raw archive contains all 36 extension trace chunks. Original confirmation traces are supplied in the distinct V6 raw archive. Extract both at the same project root for the combined analysis. Historical V4/V5 raw archives are required only for their complete reruns and deepest historical audits.
+
+Preservation manifests protect 141 original files, 225 V4 files, 176 V5 files and the pre-redesign V6 snapshot. V7's final integrity report verifies those available files and all frozen MATLAB source hashes. The source-rights file records GitHub's null license result, source commit lineage, assistance disclosure and unresolved human approvals. It does not assign a license that the repository did not provide.
+
+\section{Journal Structure and Submission Boundaries}
+The official TAES guidance emphasizes scope and a well-rounded treatment over page count. A regular paper may exceed ten printed pages with charges; this revision's added length comes from explicit derivation, model, algorithm and evidence rather than a target length. Current guidance is linked in the review record: \url{https://ieee-aess.org/publications/transactions-aes/author-information}.
+
+The Lei \emph{et al.} TAES example has DOI 10.1109/TAES.2023.3340636 and a 2024 publication record. The linked arXiv author manuscript, \url{https://arxiv.org/html/2305.19644}, is an earlier differently titled version, not a verified identical copy of the published article. It is used only as an organizational example. The Oh--Noh 2026 publisher record has DOI 10.1109/TAES.2026.3733932; only its abstract/metadata were assessed. Neither example proves novelty or validity of this work.
+
+IEEE's AI guidance requires acknowledgment of generated content and identification of the system and affected sections. The main manuscript contains a substantive disclosure covering formulation/checking, code, experiments, analysis, figures and drafting. Policy source: \href{https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/}{IEEE AI guidance}, accessed October 23, 2026. Human authorship, original contribution, factual verification, source rights and approval of submission remain human responsibilities. These artifacts claim no submission, acceptance, external review or physical validation.
+\end{document}

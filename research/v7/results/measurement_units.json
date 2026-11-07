@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "kernel_sensor_samples": 2100,
+  "maximum_numerical_sensor_error": 0,
+  "rows": [
+    {
+      "noise_scale": 0.25,
+      "sigma_q_rad": 2E-8,
+      "sigma_v_rad_per_s": 4E-8,
+      "coupling_gain_per_s": 2,
+      "relative_power_sigma": 0.002,
+      "delta": 0.01,
+      "N": 700,
+      "channels": 5,
+      "kappa": 4.6808310827377051
+    },
+    {
+      "noise_scale": 0.75,
+      "sigma_q_rad": 6.0000000000000008E-8,
+      "sigma_v_rad_per_s": 1.2000000000000002E-7,
+      "coupling_gain_per_s": 2,
+      "relative_power_sigma": 0.006,
+      "delta": 0.01,
+      "N": 700,
+      "channels": 5,
+      "kappa": 4.6808310827377051
+    },
+    {
+      "noise_scale": 1,
+      "sigma_q_rad": 8E-8,
+      "sigma_v_rad_per_s": 1.6E-7,
+      "coupling_gain_per_s": 2,
+      "relative_power_sigma": 0.008,
+      "delta": 0.01,
+      "N": 700,
+      "channels": 5,
+      "kappa": 4.6808310827377051
+    }
+  ],
+  "interpretation": "Legacy coefficient2 is the declared numeric coupling gamma_v=2 s^-1 between distinct angle and rate noise scales; it is not a dimensionless equality of physical units. No inherited sensor values or old results changed.",
+  "calibration": "Assumed source policy, not independently calibrated sensor hardware."
+}

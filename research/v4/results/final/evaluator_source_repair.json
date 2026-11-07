@@ -1,0 +1,7 @@
+{
+  "reason": "Evaluator-only repair after final run: include offset constancy in certificate-premise logging. The decision, estimator, plant, library and observed outcomes are unchanged. Exact original run source is archived in frozen_source. Corrected derived CSV files preserve the original flag as certificate_premises_recorded. The new regression test exercises the observed counterexample.",
+  "current_sha256": {
+    "v4_trial.m": "3299570a364148a019dbae951d4704ca8730be553529eda3a804f239cdf6a8d6",
+    "tests/test_v4.m": "590b5516252af0f1134a77fe28045ce44f7e4d93ff2b2aafa7e711c8caabdbe3"
+  }
+}

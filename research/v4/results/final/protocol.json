@@ -1,0 +1,583 @@
+{
+  "config": {
+    "n": 4,
+    "topology": "mesh",
+    "seed": 101,
+    "dt": 0.02,
+    "T": 14,
+    "J": 0.002,
+    "b": 0.004,
+    "tau": 0.08,
+    "umax": 2E-6,
+    "rateMax": 0.00012,
+    "lambda": 8,
+    "K": 8E-5,
+    "phi": 8E-6,
+    "kp": 64,
+    "kd": 14,
+    "ki": 8,
+    "initialAngle": [
+      2E-6,
+      -1E-6
+    ],
+    "noise": 8E-8,
+    "powerNoise": 0.008,
+    "Pt": 0.5,
+    "eta": 0.4,
+    "divergence": 2E-5,
+    "aperture": 0.1,
+    "distance": 800000,
+    "sensitivity": 1.5E-6,
+    "capacity": 1.0E+9,
+    "offered": 6.0E+8,
+    "packetBits": 12000,
+    "c": 2.99792458E+8,
+    "processing": 0.0001,
+    "method": "proposed",
+    "controller": "PID",
+    "scenario": "normal",
+    "faultStart": 2,
+    "faultEnd": 8,
+    "profile": "sudden",
+    "severity": 1,
+    "probeAmplitude": 6E-6,
+    "probeDwell": 0.5,
+    "maxCorrection": 3.5E-5,
+    "detectRatio": 0.72,
+    "decisionPeriod": 0.1,
+    "warmup": 1,
+    "edges": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "m": 5,
+    "version": "4.0",
+    "assumptions": "Fixed sparse graph; one effective two-axis terminal per bidirectional edge; fluid single flow 1 to 2; no orbital propagation or atmospheric loss.",
+    "p0": 3.906211853266228E-6,
+    "alpha": 2E-5,
+    "sigma": 0.03,
+    "targetRadius": 1E-6,
+    "maxResidual": 0.06,
+    "priorRadius": 3E-5,
+    "driftBound": 0.15,
+    "serviceBudget": 0,
+    "acquisitionBudget": 4,
+    "detectLog": 0.18,
+    "offsetThreshold": 4E-6,
+    "detectionCount": 3,
+    "settleFraction": 0.6,
+    "probeStart": null,
+    "delta": 0.01,
+    "alphaRange": [
+      1.8E-5,
+      2.2000000000000003E-5
+    ],
+    "p0Range": [
+      3.2282797303606616E-6,
+      4.8224727226653392E-6
+    ],
+    "gainMax": 1.05,
+    "kappa": 4.6808310827377051,
+    "amplitudes": [
+      2E-6,
+      4E-6,
+      6E-6,
+      8E-6
+    ],
+    "dwells": [
+      0.36,
+      0.5
+    ],
+    "Jfactors": [
+      0.8,
+      1,
+      1.25
+    ],
+    "taufactors": [
+      1,
+      1.5
+    ],
+    "fitAlpha": 0.01,
+    "maxFitIterations": 12,
+    "esGain": 0.3,
+    "kfProcess": 0,
+    "actualJfactor": 1,
+    "actualTaufactor": 1,
+    "actualAlphaFactor": 1,
+    "sensorBias": [
+      0,
+      0
+    ],
+    "driftSlope": 0.09,
+    "curvature": 0.008,
+    "fadingAmplitude": 0.16,
+    "nearGain": 0.41,
+    "offsetScale": 1,
+    "fitDegree": 1,
+    "libraryLimit": null
+  },
+  "scenarios": [
+    "healthy",
+    "pointing",
+    "linear_drift",
+    "attenuation_only",
+    "quadratic_drift",
+    "fast_fading",
+    "deep_loss",
+    "near_threshold",
+    "dark"
+  ],
+  "methods": [
+    "passive",
+    "constant_fit",
+    "projected_fixed",
+    "balanced_fixed",
+    "no_service",
+    "DAP",
+    "projected_noise",
+    "parameter_kf",
+    "lockin",
+    "UAD",
+    "UAD_no_tube",
+    "UAD_point_gate"
+  ],
+  "primarySeeds": [
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036,
+    3037,
+    3038,
+    3039,
+    3040,
+    3041,
+    3042,
+    3043,
+    3044,
+    3045,
+    3046,
+    3047,
+    3048,
+    3049,
+    3050,
+    3051,
+    3052,
+    3053,
+    3054,
+    3055,
+    3056,
+    3057,
+    3058,
+    3059,
+    3060,
+    3061,
+    3062,
+    3063,
+    3064,
+    3065,
+    3066,
+    3067,
+    3068,
+    3069,
+    3070,
+    3071,
+    3072,
+    3073,
+    3074,
+    3075,
+    3076,
+    3077,
+    3078,
+    3079,
+    3080,
+    3081,
+    3082,
+    3083,
+    3084,
+    3085,
+    3086,
+    3087,
+    3088,
+    3089,
+    3090,
+    3091,
+    3092,
+    3093,
+    3094,
+    3095,
+    3096,
+    3097,
+    3098,
+    3099,
+    3100
+  ],
+  "sensitivitySeeds": [
+    4001,
+    4002,
+    4003,
+    4004,
+    4005,
+    4006,
+    4007,
+    4008,
+    4009,
+    4010,
+    4011,
+    4012,
+    4013,
+    4014,
+    4015,
+    4016,
+    4017,
+    4018,
+    4019,
+    4020,
+    4021,
+    4022,
+    4023,
+    4024,
+    4025,
+    4026,
+    4027,
+    4028,
+    4029,
+    4030,
+    4031,
+    4032,
+    4033,
+    4034,
+    4035,
+    4036,
+    4037,
+    4038,
+    4039,
+    4040,
+    4041,
+    4042,
+    4043,
+    4044,
+    4045,
+    4046,
+    4047,
+    4048,
+    4049,
+    4050
+  ],
+  "sensitivityMethods": [
+    "projected_fixed",
+    "DAP",
+    "projected_noise",
+    "parameter_kf",
+    "lockin",
+    "UAD"
+  ],
+  "sweeps": [
+    {
+      "name": "noise",
+      "scenarios": [
+        "pointing",
+        "linear_drift",
+        "near_threshold"
+      ],
+      "values": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "slope",
+      "scenarios": [
+        "linear_drift"
+      ],
+      "values": [
+        0,
+        0.045,
+        0.09,
+        0.15,
+        0.25
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "curvature",
+      "scenarios": [
+        "quadratic_drift"
+      ],
+      "values": [
+        0.004,
+        0.008,
+        0.02
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "fading",
+      "scenarios": [
+        "fast_fading"
+      ],
+      "values": [
+        0.04,
+        0.16,
+        0.3
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "beam",
+      "scenarios": [
+        "pointing",
+        "linear_drift"
+      ],
+      "values": [
+        0.9,
+        1,
+        1.1,
+        1.2
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "offset",
+      "scenarios": [
+        "pointing",
+        "linear_drift"
+      ],
+      "values": [
+        0.5,
+        1,
+        1.2
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "actuator",
+      "scenarios": [
+        "linear_drift",
+        "near_threshold"
+      ],
+      "values": [
+        1,
+        2,
+        3
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "bias",
+      "scenarios": [
+        "linear_drift",
+        "near_threshold"
+      ],
+      "values": [
+        0,
+        0.5,
+        2
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "margin",
+      "scenarios": [
+        "near_threshold"
+      ],
+      "values": [
+        0.385,
+        0.41,
+        0.5,
+        0.7
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    },
+    {
+      "name": "library",
+      "scenarios": [
+        "linear_drift"
+      ],
+      "values": [
+        2,
+        4,
+        8
+      ],
+      "methods": [
+        "UAD",
+        "UAD_no_tube"
+      ]
+    },
+    {
+      "name": "confidence",
+      "scenarios": [
+        "near_threshold"
+      ],
+      "values": [
+        0.001,
+        0.01,
+        0.1
+      ],
+      "methods": [
+        "UAD",
+        "UAD_point_gate"
+      ]
+    },
+    {
+      "name": "budget",
+      "scenarios": [
+        "near_threshold"
+      ],
+      "values": [
+        0,
+        0.5,
+        1,
+        2,
+        4
+      ],
+      "methods": [
+        "DAP",
+        "UAD",
+        "UAD_no_tube"
+      ]
+    },
+    {
+      "name": "half_step",
+      "scenarios": [
+        "linear_drift",
+        "near_threshold"
+      ],
+      "values": [
+        1,
+        0.5
+      ],
+      "methods": [
+        "projected_fixed",
+        "DAP",
+        "projected_noise",
+        "parameter_kf",
+        "lockin",
+        "UAD"
+      ]
+    }
+  ],
+  "baselineDevelopment": "seeds41:45, nine scenarios, noise1/5; ES gains0.1/0.3/0.6, KF processes0/1e-4/0.01",
+  "baselineSelection": "minimum mean outage across all development conditions, false-correction count tie-break, lower value final tie-break",
+  "selectedBaseline": {
+    "esGain": 0.3,
+    "kfProcess": 0
+  },
+  "statisticalUnit": "seed, paired within scenario/config; no time-sample replication",
+  "raw": "All main/sensitivity measurement/power/angle/probe/certificate arrays retained in per-condition MAT chunks"
+}

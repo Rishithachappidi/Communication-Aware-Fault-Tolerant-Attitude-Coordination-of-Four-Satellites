@@ -1,0 +1,908 @@
+[
+  {
+    "doi": "10.1109/TAES.2004.1386877",
+    "status": "verified-publisher-page",
+    "error": "HTTP Error 429: Too Many Requests",
+    "title": [
+      "Acquisition and pointing control for inter-satellite laser communications"
+    ],
+    "journal": [
+      "IEEE Transactions on Aerospace and Electronic Systems"
+    ],
+    "volume": "40",
+    "issue": "4",
+    "page": "1239-1248",
+    "published": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "url": "https://ieeexplore.ieee.org/document/1386877/"
+  },
+  {
+    "doi": "10.1109/ACC.2014.6859400",
+    "title": [
+      "Input design for model discrimination and fault detection via convex relaxation"
+    ],
+    "authors": [
+      {
+        "given": "Seunggyun",
+        "family": "Cheong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ian R.",
+        "family": "Manchester",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "2014 American Control Conference"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "684-690",
+    "article-number": null,
+    "url": "https://doi.org/10.1109/acc.2014.6859400",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.isatra.2019.02.034",
+    "title": [
+      "Active fault diagnosis for uncertain systems using optimal test designs and detection through classification"
+    ],
+    "authors": [
+      {
+        "given": "Kyle A.",
+        "family": "Palmer",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "George M.",
+        "family": "Bollas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "ISA Transactions"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "volume": "93",
+    "issue": null,
+    "page": "354-369",
+    "article-number": null,
+    "url": "https://doi.org/10.1016/j.isatra.2019.02.034",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.automatica.2023.111194",
+    "title": [
+      "Active fault diagnosis for linear stochastic systems subject to chance constraints"
+    ],
+    "authors": [
+      {
+        "given": "Yaqi",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qinyuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zidong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiao",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Automatica"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "volume": "156",
+    "issue": null,
+    "page": "111194",
+    "article-number": "111194",
+    "url": "https://doi.org/10.1016/j.automatica.2023.111194",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1109/TCYB.2023.3331971",
+    "title": [
+      "Input Design for Active Fault Detection: Reconciling System Control Objectives"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6276-8360",
+        "authenticated-orcid": false,
+        "given": "Fangfei",
+        "family": "Cao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Automation, Beijing Institute of Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8016-3173",
+        "authenticated-orcid": false,
+        "given": "Fanlin",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Automation, Tsinghua University, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4588-0887",
+        "authenticated-orcid": false,
+        "given": "Xiao",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Automation, Tsinghua University, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Cybernetics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "volume": "54",
+    "issue": "7",
+    "page": "3931-3942",
+    "article-number": null,
+    "url": "https://doi.org/10.1109/tcyb.2023.3331971",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.conengprac.2024.106118",
+    "title": [
+      "Optimal input design for guaranteed fault diagnosis of nonlinear systems: An active deep learning approach"
+    ],
+    "authors": [
+      {
+        "given": "Nathaniel",
+        "family": "Massa",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1518-7985",
+        "authenticated-orcid": false,
+        "given": "Joel A.",
+        "family": "Paulson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Control Engineering Practice"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "volume": "153",
+    "issue": null,
+    "page": "106118",
+    "article-number": "106118",
+    "url": "https://doi.org/10.1016/j.conengprac.2024.106118",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.ifacol.2020.12.1519",
+    "title": [
+      "An Extremum Seeking Control Based Approach for Alignment Problem of Mobile Optical Communication Systems"
+    ],
+    "authors": [
+      {
+        "given": "Wenqi",
+        "family": "Cai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abdullah N.",
+        "family": "Alhashim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ibrahima",
+        "family": "N\u2019Doye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Taous Meriem",
+        "family": "Laleg-Kirati",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IFAC-PapersOnLine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "volume": "53",
+    "issue": "2",
+    "page": "5368-5374",
+    "article-number": null,
+    "url": "https://doi.org/10.1016/j.ifacol.2020.12.1519",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1109/TAC.2024.3469785",
+    "title": [
+      "Semiglobal Safety-Filtered Extremum Seeking With Unknown CBFs"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7928-0353",
+        "authenticated-orcid": false,
+        "given": "Alan",
+        "family": "Williams",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical and Aerospace Engineering, University of California, San Diego, San Diego, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5523-941X",
+        "authenticated-orcid": false,
+        "given": "Miroslav",
+        "family": "Krstic",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical and Aerospace Engineering, University of California, San Diego, San Diego, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3203-0963",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Scheinker",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Accelerator Operations and Technology&#x2014;Applied Electrodynamics (AOT-AE) Group, Los Alamos National Lab, Los Alamos, NM, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Automatic Control"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "volume": "70",
+    "issue": "3",
+    "page": "1698-1713",
+    "article-number": null,
+    "url": "https://doi.org/10.1109/tac.2024.3469785",
+    "status": "verified"
+  },
+  {
+    "doi": "10.3390/aerospace11010005",
+    "title": [
+      "A Review of Mechanical Fine-Pointing Actuators for Free-Space Optical Communication"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2683-2406",
+        "authenticated-orcid": false,
+        "given": "Martynas",
+        "family": "Mila\u0161evi\u010dius",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Antanas Gustaitis Institute of Aviation, Vilnius Gediminas Technical University, 08217 Vilnius, Lithuania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laurynas",
+        "family": "Ma\u010diulis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Antanas Gustaitis Institute of Aviation, Vilnius Gediminas Technical University, 08217 Vilnius, Lithuania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Aerospace"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          20
+        ]
+      ]
+    },
+    "volume": "11",
+    "issue": "1",
+    "page": "5",
+    "article-number": null,
+    "url": "https://doi.org/10.3390/aerospace11010005",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.optcom.2022.128963",
+    "title": [
+      "Beaconless angle-of-arrival tracking with improved receiver sensitivity and tracking precision for free-space optical communications"
+    ],
+    "authors": [
+      {
+        "given": "Vuong",
+        "family": "Mai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7395-3695",
+        "authenticated-orcid": false,
+        "given": "Hoon",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Optics Communications"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1
+        ]
+      ]
+    },
+    "volume": "527",
+    "issue": null,
+    "page": "128963",
+    "article-number": "128963",
+    "url": "https://doi.org/10.1016/j.optcom.2022.128963",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.optcom.2024.130419",
+    "title": [
+      "Analytic pointing error evaluation on nano-satellite laser communication system"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9255-8690",
+        "authenticated-orcid": false,
+        "given": "Kiwook",
+        "family": "Baeck",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junsung",
+        "family": "Wi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hyosang",
+        "family": "Yoon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Optics Communications"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "volume": "559",
+    "issue": null,
+    "page": "130419",
+    "article-number": "130419",
+    "url": "https://doi.org/10.1016/j.optcom.2024.130419",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.automatica.2023.111481",
+    "title": [
+      "100 years of extremum seeking: A survey"
+    ],
+    "authors": [
+      {
+        "given": "Alexander",
+        "family": "Scheinker",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Automatica"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "volume": "161",
+    "issue": null,
+    "page": "111481",
+    "article-number": "111481",
+    "url": "https://doi.org/10.1016/j.automatica.2023.111481",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/S0005-1098(99)00183-1",
+    "title": [
+      "Stability of extremum seeking feedback for general nonlinear dynamic systems"
+    ],
+    "authors": [
+      {
+        "given": "Miroslav",
+        "family": "Krsti\u0107",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hsin-Hsiung",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Automatica"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2000,
+          4
+        ]
+      ]
+    },
+    "volume": "36",
+    "issue": "4",
+    "page": "595-601",
+    "url": "https://doi.org/10.1016/s0005-1098(99)00183-1",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1115/1.3662552",
+    "title": [
+      "A New Approach to Linear Filtering and Prediction Problems"
+    ],
+    "authors": [
+      {
+        "given": "R. E.",
+        "family": "Kalman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Research Institute for Advanced Study, Baltimore, Md."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Journal of Basic Engineering"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1960,
+          3,
+          1
+        ]
+      ]
+    },
+    "volume": "82",
+    "issue": "1",
+    "page": "35-45",
+    "url": "https://doi.org/10.1115/1.3662552",
+    "status": "verified"
+  },
+  {
+    "doi": "10.1016/j.optcom.2026.133342",
+    "title": [
+      "Link-Margin-Aware joint parameter optimization for scanning and acquisition of optical inter-satellite link"
+    ],
+    "authors": [
+      {
+        "given": "Kuan",
+        "family": "Yan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bingli",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuwei",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huibin",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luozhang",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kezhen",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shanguo",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Optics Communications"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "volume": "616",
+    "issue": null,
+    "page": "133342",
+    "url": "https://doi.org/10.1016/j.optcom.2026.133342",
+    "status": "verified"
+  }
+]

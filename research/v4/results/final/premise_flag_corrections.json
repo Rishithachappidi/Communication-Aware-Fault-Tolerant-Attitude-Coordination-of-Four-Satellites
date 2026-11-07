@@ -1,0 +1,664 @@
+{
+  "reason": "The frozen evaluator omitted checking that boresight offset stays constant during the complete probe. The correction changes only this premise label; all observed outcomes and violations are retained.",
+  "primary_corrections": [],
+  "sensitivity_corrections": [
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4001",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4002",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4003",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4004",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4005",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4006",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4007",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4008",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4009",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4010",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4011",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4012",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4013",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4014",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4015",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4017",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4018",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4019",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4020",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4021",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4022",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4023",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4024",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4025",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4026",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4027",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4028",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4029",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4030",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4031",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4032",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4033",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4034",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4035",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4036",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4037",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4038",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4039",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4041",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4042",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4043",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4044",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4045",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4046",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4047",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4049",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "pointing",
+      "seed": "4050",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4001",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4002",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4003",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4004",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4005",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4006",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4007",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4008",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4009",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4010",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4011",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4012",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4013",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4014",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4015",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4017",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4018",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4019",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4020",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4021",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4022",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4023",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4024",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4025",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4026",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4027",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4028",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4029",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4030",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4031",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4032",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4033",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4034",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4035",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4036",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4037",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4038",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4039",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4041",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4042",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4043",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4044",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4045",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4046",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4047",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4049",
+      "method": "UAD"
+    },
+    {
+      "condition": "beam",
+      "condition_value": "0.9",
+      "scenario": "linear_drift",
+      "seed": "4050",
+      "method": "UAD"
+    }
+  ]
+}

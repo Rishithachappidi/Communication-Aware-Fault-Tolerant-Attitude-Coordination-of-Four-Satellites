@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "contrasts": 144,
+  "changed_adjusted_upper_limits": 63,
+  "defect": "V5 used .975/36 instead of 1-.025/36 for upper Bonferroni percentile.",
+  "correction": "alpha/(2m), 1-alpha/(2m), m=36. Existing random bootstrap sequence preserved.",
+  "unchanged": "Every per-run outcome, paired mean, descriptive 95% endpoint and adjusted lower endpoint. V4 family9 implementation was correct. V5 original files remain preserved."
+}

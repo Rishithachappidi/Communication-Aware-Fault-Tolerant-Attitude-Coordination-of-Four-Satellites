@@ -1,0 +1,6 @@
+                                   status: 'passed'
+                      primary_binary_rows: 5400
+                  sensitivity_binary_rows: 3600
+              representative_trace_checks: 54
+    saved_simulink_metric_reconstructions: 4
+

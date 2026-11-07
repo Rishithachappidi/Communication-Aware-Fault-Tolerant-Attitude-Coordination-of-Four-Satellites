@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "preservation": {
+    "original": {
+      "recorded": 141,
+      "available_checked": 141
+    },
+    "V4": {
+      "recorded": 225,
+      "available_checked": 225
+    },
+    "V5": {
+      "recorded": 176,
+      "available_checked": 176
+    }
+  },
+  "frozen_MATLAB_sources": 48,
+  "new_traces_audited": 7200,
+  "state_steps_replayed": 5040000,
+  "supervisor_and_statistics_tests": 17,
+  "printed_confirmation_rows_checked": 12,
+  "unavailable_historical_files": [],
+  "external_human_review": false,
+  "physical_validation": false
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "preservation": {
+    "original": {
+      "recorded": 141,
+      "checked": 141
+    },
+    "V4": {
+      "recorded": 225,
+      "checked": 225
+    },
+    "V5": {
+      "recorded": 176,
+      "checked": 176
+    },
+    "V6": {
+      "recorded": 88,
+      "checked": 88
+    }
+  },
+  "frozen_MATLAB_sources": 51,
+  "printed_matched_rows_checked": 24,
+  "new_traces": 7200,
+  "combined_matched_records": 14400,
+  "new_steps_replayed": 5040000,
+  "combined_steps_replayed": 10080000,
+  "tests": 22,
+  "new_trace_chunks": 36,
+  "missing_historical_files": [],
+  "physical_validation": false,
+  "external_human_review": false
+}

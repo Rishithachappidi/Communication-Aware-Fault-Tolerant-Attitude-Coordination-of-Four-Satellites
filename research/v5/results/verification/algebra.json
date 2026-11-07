@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "boundary_optimizations": 1200,
+  "direct_power_checks": 9600,
+  "maximum_excess_urad2": 4.547473508864641e-13,
+  "maximum_centered_sharpness_error_urad2": 4.547473508864641e-13,
+  "scope": "Independent numerical boundary optimization supports the written analytic proof; not a formal proof assistant or external human review."
+}

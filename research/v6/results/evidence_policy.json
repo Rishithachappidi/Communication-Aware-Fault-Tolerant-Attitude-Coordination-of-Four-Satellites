@@ -1,0 +1,10 @@
+{
+  "scope": "UAD probes with a calculated bound only. Non-probing trials reported separately. Fixed-margin calculations are not certified UAD probes.",
+  "precedence": [
+    "A known failed premise -> out-of-model, even when other evidence is missing.",
+    "No known failed premise but missing full required histories -> unverified.",
+    "Complete required histories and every numeric premise check passes -> within-premise under the declared simulator model."
+  ],
+  "historical_change": "The 1564 V4 reconstructed-compatible flags are now unverified in this stricter evidence table, not newly verified. Their old labels/results remain preserved.",
+  "distribution_assumption": "Within-premise does not mean a Gaussian distribution or physical calibration can be established from a single trace; the simulation generator and declared model remain assumptions. No category is a field reliability population."
+}

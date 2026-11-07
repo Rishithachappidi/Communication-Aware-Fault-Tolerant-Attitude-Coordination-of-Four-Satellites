@@ -1,0 +1,27 @@
+{
+  "status": "verified",
+  "verified_at_utc": "2026-10-24T05:00:49.830418+00:00",
+  "repository": "kaushalrog/Satellite-Optical-Fault-Recovery",
+  "tag": "research-v7-2026-10-23",
+  "parts_verified": 115,
+  "archives": [
+    {
+      "name": "Satellite_Optical_Research_V5_Raw_Data.zip",
+      "bytes": 1231968907,
+      "sha256": "7e0b9e2eec9ab70217d6edd272911f74b18e8733cf2332784ade28189845c2e2",
+      "parts": 37
+    },
+    {
+      "name": "Satellite_Optical_Research_V6_Raw_Data.zip",
+      "bytes": 1246771524,
+      "sha256": "40f286e314cdab81ebaf2abd7bb87ecbc2388df27d229d49502aee1de97b77a6",
+      "parts": 38
+    },
+    {
+      "name": "Satellite_Optical_Research_V7_Raw_Data.zip",
+      "bytes": 1321238634,
+      "sha256": "79945c97c5d958192d572e5ddbacca37c5c78cbbfd4c6e91f53b1682b38f0bbf",
+      "parts": 40
+    }
+  ]
+}

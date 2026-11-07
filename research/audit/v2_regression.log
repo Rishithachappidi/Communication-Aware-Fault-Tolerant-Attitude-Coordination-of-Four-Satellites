@@ -1,0 +1,14 @@
+Setting up ProjectFixture
+V2 ready. Read START_HERE.md for results and experiment commands.
+Done setting up ProjectFixture: Opened project 'space_craft'.
+__________
+
+Running test_revision_v2
+.........
+Done test_revision_v2
+__________
+
+Tearing down ProjectFixture
+Done tearing down ProjectFixture: Closed project 'space_craft'.
+__________
+

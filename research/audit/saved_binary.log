@@ -1,0 +1,10 @@
+{Error using assert
+Assertion failed.
+
+Error in audit_saved_binary>compare (line 29)
+ if isnumeric(aa)||islogical(aa),assert(all(abs(double(aa)-double(bb))<1e-10 | (isnan(aa)&isnan(bb))));
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in audit_saved_binary (line 4)
+compare(A.T,readtable(fullfile(v3,'results','full','trials.csv')));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

@@ -1,0 +1,6 @@
+{
+  "issue": "The time-budget descriptor did not explicitly exempt historical DAP library construction.",
+  "implementation": "UAD and fixed-margin candidates use only 0.36-s dwells; ES is hard-limited to 2.88 s. DAP retains the v3_designs 0.35/0.50-s library, but every selected DAP probe in the new data lasts 2.8 s.",
+  "maximum_observed_DAP_probe_s": 2.8,
+  "consequence": "The new UAD/ES comparison is time-matched. DAP is a historical reference whose observed excitation lies below the same cap, without claiming its source library was hard-capped. No outcomes or source settings were changed."
+}

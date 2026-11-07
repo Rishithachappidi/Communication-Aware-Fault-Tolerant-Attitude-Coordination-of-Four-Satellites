@@ -1,0 +1,19 @@
+                            checks: 9
+                            status: 'passed'
+                 gaussian_coverage: 0.9825
+    half_step_angle_difference_rad: 2.1682e-13
+                            matlab: '26.1.0.3276743 (R2026a) Update 3'
+
+Reproduced V3 healthy: 4.1s
+Reproduced V3 pointing: 8.4s
+Reproduced V3 linear_drift: 12.6s
+Reproduced V3 attenuation_only: 16.8s
+Reproduced V3 quadratic_drift: 21.0s
+Reproduced V3 fast_fading: 25.2s
+Reproduced V3 deep_loss: 29.5s
+Reproduced V3 near_threshold: 33.6s
+Reproduced V3 dark: 37.7s
+Reproduced V3 stress fivefold_noise: 47.1s
+Reproduced V3 stress actuator_mismatch: 55.7s
+Reproduced V3 stress half_step: 72.8s
+V3 AUDIT REPRODUCTION COMPLETE: 9000 trials; per-trace outage/energy checks passed

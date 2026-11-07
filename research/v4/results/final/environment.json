@@ -1,0 +1,24 @@
+{
+  "matlab": "26.1.0.3276743 (R2026a) Update 3",
+  "computer": "MACA64",
+  "created": "23-Oct-2026 13:43:18",
+  "root": "/Users/kaush/Downloads/Satellite_Optical_Recovery_Final",
+  "testReport": {
+    "status": "passed",
+    "count": 9,
+    "checks": [
+      "sharp angular loss and containment",
+      "simultaneous-envelope acquisition gate",
+      "finite-model RK4 predictor exactness",
+      "noiseless affine identification and rank rejection",
+      "covariance transformation and units",
+      "unobservable model-mismatch counterexample",
+      "candidate selection and infeasible abstention",
+      "closed-loop requirements and determinism",
+      "independent finite-aperture quadrature"
+    ],
+    "aperture_max_relative_error": 0.00017576008311310286,
+    "matlab": "26.1.0.3276743 (R2026a) Update 3"
+  },
+  "pidPredictor": "finite-model unsaturated RK4, verified stage constraints"
+}

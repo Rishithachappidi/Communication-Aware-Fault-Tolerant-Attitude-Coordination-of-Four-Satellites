@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "new_traces": 7200,
+  "new_actuator_steps": 5040000,
+  "max_state_error": 1.3552527156068805e-20,
+  "total_matched_traces": 14400,
+  "scope": "New baseline extension independently replayed. Original two-method confirmation independently audited in preserved V6; four methods were not jointly predeclared. No physical replication."
+}

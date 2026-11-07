@@ -1,0 +1,32 @@
+\section{Related Work and Research Gap}
+\subsection{Optical acquisition, pointing and link margin}
+Guelman \emph{et al.} address inter-satellite acquisition and pointing \cite{guelman}. Mechanical fine-pointing reviews and pointing-budget studies describe important actuator and angular-error considerations \cite{actuators,baeck}. They motivate including actuator response and sensor uncertainty; they do not calibrate the numerical terminal used here. NASA's small-spacecraft communications overview likewise supplies application context rather than evidence for this assumed unit \cite{nasa}.
+
+Yan \emph{et al.} explicitly study link-margin-aware scanning and acquisition \cite{yan}. Recent optical work by Oh and Noh examines uncertainty-cone design with time-correlated retries \cite{oh}. Its published abstract distinguishes retry models and identifies conditions for different optimum behavior. That treatment concerns acquisition-cone/retry design; the present decision concerns a finite diagnostic reference starting from a measured power state. Only its publisher abstract and metadata were accessible for this study, so exact algorithmic overlap and faithful implementation remain unresolved. No numerical advantage over that paper is claimed.
+
+\subsection{Constrained and guaranteed active diagnosis}
+Chance-constrained diagnosis of linear stochastic systems \cite{guo} and reachability-based guaranteed diagnosis for nonlinear models \cite{massa} already connect informative input design and constraints. Their models, ambiguity objectives and guarantees differ from the scalar optical-power contract here. A fair comparison would map optical dynamics, sensing, admissible hypotheses and objectives into the original formulations. Replacing that mapping by a generic estimator and calling it a reproduction would be misleading.
+
+Two feasible architectures are evaluated: a linear Kalman parameter filter on the transformed optical model and a washout/demodulation extremum-seeking tracker. They are explicitly adapted baselines. The former tests whether sequential parameter estimation can obtain more diagnostic access under the same trigger and time limit; the latter tests a tracking objective and carries no diagnosis acceptance credit. The added experiments do not reproduce the full chance-constrained or reachability-verified published systems.
+
+\subsection{Supervision and uncertainty contracts}
+Classical extremum-seeking stability analysis \cite{es} and modern safety-filtered extremum seeking with unknown barrier functions \cite{safees} address properties beyond a finite lookup certificate. The present supervisor is narrower: it checks whether a candidate's stated evidence supports a sampled probe-window outage count. It also exposes why a valid service permission cannot be interpreted as an accurate fault estimate or permission for a subsequent recovery maneuver.
+
+Table~\ref{tab:prior} states verified scope and the actual reproduction status. ``Not assessed'' is not a claim that an original paper lacks physical validation. The source review remains incomplete for some recent optical work, and absolute novelty over close prior art remains unconfirmed. The research gap claimed here is consequently a concrete formulation and implementation boundary, rather than the invention of safe active diagnosis.
+
+\begin{table*}[t]
+\caption{Prior-art positioning and reproduction status. Original-paper guarantees are described at their verified level; no ranking follows from different objectives. Physical validation is not assumed from bibliographic metadata.}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{.15\textwidth}p{.20\textwidth}p{.18\textwidth}p{.18\textwidth}p{.22\textwidth}@{}}\toprule
+Method & Model / probe selection & Guarantee or objective & Physical validation assessed here & Relevant gap / reproduction status\\\midrule
+Optical acquisition and pointing \cite{guelman} & Inter-satellite pointing/acquisition control & Acquisition and pointing & Not assessed in this comparison & Different decision; no faithful numerical reproduction\\
+Link-margin-aware scanning \cite{yan} & Optical acquisition scan parameters & Link-margin-aware acquisition optimization & Not assessed & Diagnostic-contract mapping not reproduced\\
+Correlated-retry cone design \cite{oh} & Spiral-scan acquisition and retry assumptions & Analytical optimum behavior described in abstract & Not assessed; full text unavailable & Abstract-only positioning; no numerical reproduction\\
+Chance-constrained AFD \cite{guo} & Linear stochastic dynamics; informative input & Probabilistic state constraints & Not assessed & Optical nonlinear mapping absent; not reproduced\\
+Guaranteed nonlinear AFD \cite{massa} & Nonlinear uncertain models; verified inputs & Reachability-based diagnosis guarantee & Not assessed & Public code exists; required tools unavailable on active path\\
+Safety-filtered ES \cite{safees} & Unknown measured barrier; adaptive dither & Semiglobal safety-filtered ES analysis & Not assessed & Full barrier/filter architecture not reproduced\\
+Parameter KF / conventional ES & Transformed optical parameters / washout tracking & Approximate covariance / tracking objective & Simulation only & Adapted, matched architectures evaluated; no theorem attributed to them\\
+Present certificate & Gaussian optics; finite actuator members; candidate library & Conditional sampled probe service & Simulation and shadow interface only & Distinct from correct diagnosis and post-correction recovery\\\bottomrule
+\end{tabular}
+\label{tab:prior}
+\end{table*}

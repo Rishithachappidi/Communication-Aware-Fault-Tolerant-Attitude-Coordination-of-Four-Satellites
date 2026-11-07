@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "exact_identities": [
+    "general-bound nonnegative slack decomposition",
+    "two-dimensional Cauchy Gram determinant",
+    "centered-bound attainment for nonzero increment",
+    "zero-increment centered attainment including zero radii",
+    "exact radian/microradian exponent conversion"
+  ],
+  "assumptions_used_in_written_proof": [
+    "A=norm(dbar), B=norm(c+dbar)",
+    "norm(u)<=R, norm(v)<=r, R,r>=0",
+    "Cauchy inequality and order of nonnegative square roots",
+    "fixed offset/divergence, positive power, lower gain slope and lower starting power for optical conversion"
+  ],
+  "scope": "Machine-checked exact algebra identities plus a line-by-line mathematical argument. Not an external human verification, not a complete Lean/Coq theorem, not rounded floating-point certification."
+}

@@ -1,0 +1,8 @@
+{
+  "snapshot_file": "Satellite_Optical_Research_V4_Full_Project_Snapshot.zip",
+  "snapshot_sha256": "7a3b7d8b495cf60b1e0969c706752148b21cdc402b01d1a2e2eedf7d20a60d0e",
+  "snapshot_bytes": 864682398,
+  "snapshot_files": 3610,
+  "git_files_overlaid": 2730,
+  "omissions": "Caches, app/Git state, temporary private reference extracts, supplied Cs_1.pdf, autosaves, duplicate archives. New V4 raw traces are in the separately supplied Raw Data ZIP; this snapshot contains other bulk .mat results."
+}

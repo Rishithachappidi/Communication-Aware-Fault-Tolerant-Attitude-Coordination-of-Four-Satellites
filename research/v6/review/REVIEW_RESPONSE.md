@@ -1,0 +1,32 @@
+# Response to the twelve-issue review
+
+23 October2026. Separate revision; all V4/V5 sources and outcomes preserved. Independent calculation means separate code/derivation by the same assistant, not an external human reviewer. Scientific results remain simulations.
+
+|Issue|Implemented response|Status / limit|
+|---|---|---|
+|1. No practical advantage over fixed margin|Development admission map and7,200 new causal runs examine both directions and controls. Region1 middle: UAD600 probes/594 accepted fits, fixed guard0; both zero sampled outage. Reverse middle: guard41 accepted, UAD0; both zero outage. Old2,800 identical pairs retained.|A restricted diagnostic-admission benefit under quarter noise and L=0; no global recovery superiority or proof of unsafe guard admissions.|
+|2. Continuous actuator uncertainty|Explicitly choose OptionA. Theorem, interface and title use six discrete actual models only; membership between points is refused. No endpoint/grid-to-continuum inference.|Continuous reachability remains absent.|
+|3. Complete proof audit|Full nonnegative slack decomposition, sign/units audit and centered attainment including zero cases. SymPy verifies exact polynomial identities; prior independent optimization retained.|Written mathematical argument plus exact-algebra checks, not external human/Lean/floating-point proof.|
+|4. Adaptive guarantee|Retain five-channel, N-sample event, set-inclusion proof, positive/zero/clipped power and eta>=1 treatment. Gaussian probability remains conditional on stipulated scales/tails. Heavy-tail failures retained.|No extension to heavy-tailed/bias-calibration uncertainty.|
+|5. Approximate estimator confidence|New four-property table; service, estimation, diagnosis and recovery are separate. Explicit bias confounding q+b=q_m+(b-beta). Acceptance and confidence misses shown. Region1 middle has26 radius misses among594 accepted fits.|Service certification does not establish diagnosis reliability.|
+|6. Within/out/unverified|Strict, reproducible evidence policy and all per-condition/per-probe categories. V4:1564 unverified,557 out-of-model; V5 and V6 complete-history classes separate. Guard bounds are not credited as UAD certificates.|Zero observations not a zero-risk proof; distribution/physical truth still conditional on simulator declarations.|
+|7. Worse recovery tradeoffs|Retain V5 UAD5.0324s/46 accepted vs DAP4.2420s/50 in affine drift. New table shows outage, accepted fits, excitation and bound slack. Region1 middle bound slack0.658 times sensitivity.|No universal speed/coverage advantage. New usable-link probes are not counted as recovery.|
+|8. ES objectives/budgets|Preserve time-matched2.88s and native8s evidence and actual angular-energy distinction. ES remains tracker with no verified diagnosis credit.|No electrical-energy or complete-system superiority claim.|
+|9. Incomplete historical logs|New runs record complete eight-state trajectories, causal references, all standardized noise, offset/gain, actual/measured power, bounds, plans/fits. Separate Python replays5,040,000 RK4 steps, including clamps and anti-windup, and checks all7,200 outcomes.|Historical reconstruction remains labelled; no invented missing original histories.|
+|10. Simulation validity|Values remain declared assumptions. Link physical background sources to plausibility, never calibration. Replayed dynamics/optics are consistency checks of the simulated model.|No hardware, HIL, flight or industrial installation validation.|
+|11. Specialized novelty|State exact conditional sampled-outage implication, distinguish it from established safe-AFD/ES/acquisition claims, and explain the narrower benefit as diagnostic access under an evidence contract.|Absolute priority and importance for a Transactions venue remain unestablished; close complete systems not reproduced.|
+|12. Industrial operational role|Executable authorization/refusal and measurement-envelope monitor; explicit input/evidence contracts, expiry/units/member checks, simulation-vs-physical boundary and separate recovery decision. Seventeen tests,1,421 shadow authorizations,204,624 monitor samples.|Shadow/interface evaluation only. Strings do not verify calibration; external evidence authority and future-contract validity are unresolved. No claim of TII deployment readiness.|
+
+## Additional statistical correction discovered during this revision
+
+V5's Bonferroni upper percentile was `.975/36`; it should be `1-.025/36`. The new statistics-only correction uses exactly the same5,000 bootstrap draw sequence. It changes63 of144 adjusted upper limits while leaving all point estimates, per-run outcomes, ordinary95% endpoints and adjusted lower endpoints unchanged. Old files remain; use `results/v5_paired_corrected.csv`. V4's family-nine calculation was correct. New family-six limits use tested symmetric tails and average six model contrasts within each seed before resampling100 seed units. The model replications are not counted as600 independent random seeds.
+
+## Main scientific interpretation
+
+The new comparison addresses the most important question rather than just increasing the test count. A fixed guard can be overly conservative at one finite-model/sensing regime and less conservative at another. A model-based certificate therefore changes admissible diagnostic information in a restricted usable-link regime. It does not justify a broad recovery-performance claim, and it pays for its statement with restrictive assumptions, evidence requirements and refusals.
+
+For region1 middle, the acceptance difference is0.990 per seed-averaged fixed-model contrast, descriptive95% interval[.970,1.000], approximate family-six interval[.960,1.000]. The 600 runs comprise100 seeds across six declared models. Six fits are rejected;26 accepted offsets miss their approximate radius. Median accepted gain error is2.50e-4. Neither acceptance nor zero outage is a guaranteed correct diagnosis or a recovered initially failed link.
+
+## Submission assessment
+
+Further research is needed. The current core is conditional optical authorization, with a narrow demonstrated admission difference and clearer evidence accounting. External proof review, continuous-parameter coverage, physical calibration, faithful complete-system comparisons, source-rights/human-author approvals, and a convincing industrial application remain unresolved. TII readiness is not claimed. The new focused six-page draft is a research artifact, not proof of current journal-format or submission compliance.

@@ -1,0 +1,27 @@
+test_invalid_horizon_fails_closed (test_extension.HorizonAndUnits.test_invalid_horizon_fails_closed) ... ok
+test_late_window_refused (test_extension.HorizonAndUnits.test_late_window_refused) ... ok
+test_nonfinite_bound_stops_monitor (test_extension.HorizonAndUnits.test_nonfinite_bound_stops_monitor) ... ok
+test_rate_units_refused (test_extension.HorizonAndUnits.test_rate_units_refused) ... ok
+test_window_ending_at_horizon (test_extension.HorizonAndUnits.test_window_ending_at_horizon) ... ok
+test_adjusted_interval_contains_unadjusted_tails (test_statistics.FamilyIntervalTest.test_adjusted_interval_contains_unadjusted_tails) ... ok
+test_invalid_family_rejected (test_statistics.FamilyIntervalTest.test_invalid_family_rejected) ... ok
+test_one_family_is_two_sided_95 (test_statistics.FamilyIntervalTest.test_one_family_is_two_sided_95) ... ok
+test_breach_marks_uncertified (test_supervisor.SupervisorTest.test_breach_marks_uncertified) ... ok
+test_censored_or_invalid_interval_refused (test_supervisor.SupervisorTest.test_censored_or_invalid_interval_refused) ... ok
+test_envelope_must_cover_whole_probe (test_supervisor.SupervisorTest.test_envelope_must_cover_whole_probe) ... ok
+test_expired_window_refused (test_supervisor.SupervisorTest.test_expired_window_refused) ... ok
+test_invalid_budget_cannot_fail_open (test_supervisor.SupervisorTest.test_invalid_budget_cannot_fail_open) ... ok
+test_invalid_expiry_refused (test_supervisor.SupervisorTest.test_invalid_expiry_refused) ... ok
+test_missing_evidence_refused (test_supervisor.SupervisorTest.test_missing_evidence_refused) ... ok
+test_no_false_breach_from_uncertain_measurement (test_supervisor.SupervisorTest.test_no_false_breach_from_uncertain_measurement) ... ok
+test_no_parameter_interpolation (test_supervisor.SupervisorTest.test_no_parameter_interpolation) ... ok
+test_no_recovery_credit (test_supervisor.SupervisorTest.test_no_recovery_credit) ... ok
+test_simulation_not_deployment (test_supervisor.SupervisorTest.test_simulation_not_deployment) ... ok
+test_uncertain_power_does_not_unlock_acquisition (test_supervisor.SupervisorTest.test_uncertain_power_does_not_unlock_acquisition) ... ok
+test_units_required (test_supervisor.SupervisorTest.test_units_required) ... ok
+test_unverified_contract_refused (test_supervisor.SupervisorTest.test_unverified_contract_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.000s
+
+OK

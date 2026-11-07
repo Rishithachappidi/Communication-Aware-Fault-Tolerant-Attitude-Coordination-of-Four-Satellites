@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "N": 700,
+  "channels": 5,
+  "delta": 0.01,
+  "kappa": 4.680831082734087,
+  "union_tail": 0.01000000000017653,
+  "missions": 10000,
+  "event_failures": 100,
+  "event_failure_CP95_upper": 0.011797233971347618,
+  "adversarial_selected_time_false_acquisitions": 8,
+  "pointwise_99pct_selected_time_false_acquisitions": 9680,
+  "clipped_samples": 0,
+  "scope": "Uniform-event proof covers arbitrary selection; this adversarial minimum test is not the plant algorithm. Its exact adaptive decisions are separately audited in saved traces. Gaussian scales/tails are assumptions, not hardware calibration."
+}
